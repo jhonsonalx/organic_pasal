@@ -21,7 +21,7 @@ export default class Model extends Component {
                                             <Link className="product__media--preview__items--link glightbox" data-gallery="product-media-preview" to="assets/img/product/big-product1.jpg"><img className="product__media--preview__items--img" src="assets/img/product/big-product1.jpg" alt="product-media-img"/></Link>
                                             <div className="product__media--view__icon">
                                                 <Link className="product__media--view__icon--link glightbox" to="assets/img/product/big-product1.jpg" data-gallery="product-media-preview">
-                                                    <svg className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"></path><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path></svg>
+                                                    <svg className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" strokeMiterlimit="10" strokeWidth="32"></path><path fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit="10" strokeWidth="32" d="M338.29 338.29L448 448"></path></svg>
                                                     <span className="visually-hidden">product view</span> 
                                                 </Link>
                                             </div>
@@ -32,7 +32,7 @@ export default class Model extends Component {
                                             <Link className="product__media--preview__items--link glightbox" data-gallery="product-media-preview" to="assets/img/product/big-product2.jpg"><img className="product__media--preview__items--img" src="assets/img/product/big-product2.jpg" alt="product-media-img"/></Link>
                                             <div className="product__media--view__icon">
                                                 <Link className="product__media--view__icon--link glightbox" to="assets/img/product/big-product2.jpg" data-gallery="product-media-preview">
-                                                    <svg className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"></path><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path></svg>
+                                                    <svg className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" strokeMiterlimit="10" strokeWidth="32"></path><path fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit="10" strokeWidth="32" d="M338.29 338.29L448 448"></path></svg>
                                                     <span className="visually-hidden">product view</span>
                                                 </Link>
                                             </div>
@@ -43,7 +43,7 @@ export default class Model extends Component {
                                             <Link className="product__media--preview__items--link glightbox" data-gallery="product-media-preview" to="assets/img/product/big-product3.jpg"><img className="product__media--preview__items--img" src="assets/img/product/big-product3.jpg" alt="product-media-img"/></Link>
                                             <div className="product__media--view__icon">
                                                 <Link className="product__media--view__icon--link glightbox" to="assets/img/product/big-product3.jpg" data-gallery="product-media-preview">
-                                                    <svg className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"></path><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path></svg>
+                                                    <svg className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" strokeMiterlimit="10" strokeWidth="32"></path><path fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit="10" strokeWidth="32" d="M338.29 338.29L448 448"></path></svg>
                                                     <span className="visually-hidden">product view</span>
                                                 </Link>
                                             </div>
@@ -54,7 +54,7 @@ export default class Model extends Component {
                                             <Link className="product__media--preview__items--link glightbox" data-gallery="product-media-preview" to="assets/img/product/big-product4.jpg"><img className="product__media--preview__items--img" src="assets/img/product/big-product4.jpg" alt="product-media-img"/></Link>
                                             <div className="product__media--view__icon">
                                                 <Link className="product__media--view__icon--link glightbox" to="assets/img/product/big-product4.jpg" data-gallery="product-media-preview">
-                                                    <svg className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"></path><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path></svg>
+                                                    <svg className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" strokeMiterlimit="10" strokeWidth="32"></path><path fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit="10" strokeWidth="32" d="M338.29 338.29L448 448"></path></svg>
                                                     <span className="visually-hidden">product view</span>
                                                 </Link>
                                             </div>
@@ -65,7 +65,7 @@ export default class Model extends Component {
                                             <Link className="product__media--preview__items--link glightbox" data-gallery="product-media-preview" to="assets/img/product/big-product5.jpg"><img className="product__media--preview__items--img" src="assets/img/product/big-product5.jpg" alt="product-media-img"/></Link>
                                             <div className="product__media--view__icon">
                                                 <Link className="product__media--view__icon--link glightbox" to="assets/img/product/big-product5.jpg" data-gallery="product-media-preview">
-                                                    <svg className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"></path><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path></svg>
+                                                    <svg className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" strokeMiterlimit="10" strokeWidth="32"></path><path fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit="10" strokeWidth="32" d="M338.29 338.29L448 448"></path></svg>
                                                     <span className="visually-hidden">product view</span>
                                                 </Link>
                                             </div>
@@ -76,7 +76,7 @@ export default class Model extends Component {
                                             <Link className="product__media--preview__items--link glightbox" data-gallery="product-media-preview" to="assets/img/product/big-product6.jpg"><img className="product__media--preview__items--img" src="assets/img/product/big-product6.jpg" alt="product-media-img"/></Link>
                                             <div className="product__media--view__icon">
                                                 <Link className="product__media--view__icon--link glightbox" to="assets/img/product/big-product6.jpg" data-gallery="product-media-preview">
-                                                    <svg className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"></path><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path></svg>
+                                                    <svg className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="22.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" strokeMiterlimit="10" strokeWidth="32"></path><path fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit="10" strokeWidth="32" d="M338.29 338.29L448 448"></path></svg>
                                                     <span className="visually-hidden">product view</span>
                                                 </Link>
                                             </div>
@@ -177,20 +177,20 @@ export default class Model extends Component {
                                             <legend className="product__variant--title mb-8">Color :</legend>
                                             <div className="variant__color d-flex">
                                                 <div className="variant__color--list">
-                                                    <input id="color-red1" name="color" type="radio" checked/>
-                                                    <label className="variant__color--value red" for="color-red1" title="Red"><img className="variant__color--value__img" src="assets/img/product/product1.png" alt="variant-color-img"/></label>
+                                                    <input id="color-red1" name="color" type="radio" defaultChecked/>
+                                                    <label className="variant__color--value red" htmlFor="color-red1" title="Red"><img className="variant__color--value__img" src="assets/img/product/product1.png" alt="variant-color-img"/></label>
                                                 </div>
                                                 <div className="variant__color--list">
                                                     <input id="color-red2" name="color" type="radio"/>
-                                                    <label className="variant__color--value red" for="color-red2" title="Black"><img className="variant__color--value__img" src="assets/img/product/product2.png" alt="variant-color-img"/></label>
+                                                    <label className="variant__color--value red" htmlFor="color-red2" title="Black"><img className="variant__color--value__img" src="assets/img/product/product2.png" alt="variant-color-img"/></label>
                                                 </div>
                                                 <div className="variant__color--list">
                                                     <input id="color-red3" name="color" type="radio"/>
-                                                    <label className="variant__color--value red" for="color-red3" title="Pink"><img className="variant__color--value__img" src="assets/img/product/product3.png" alt="variant-color-img"/></label>
+                                                    <label className="variant__color--value red" htmlFor="color-red3" title="Pink"><img className="variant__color--value__img" src="assets/img/product/product3.png" alt="variant-color-img"/></label>
                                                 </div>
                                                 <div className="variant__color--list">
                                                     <input id="color-red4" name="color" type="radio"/>
-                                                    <label className="variant__color--value red" for="color-red4" title="Orange"><img className="variant__color--value__img" src="assets/img/product/product4.png" alt="variant-color-img"/></label>
+                                                    <label className="variant__color--value red" htmlFor="color-red4" title="Orange"><img className="variant__color--value__img" src="assets/img/product/product4.png" alt="variant-color-img"/></label>
                                                 </div>
                                             </div>
                                         </fieldset>
@@ -200,16 +200,16 @@ export default class Model extends Component {
                                             <legend className="product__variant--title mb-8">Weight :</legend>
                                             <ul className="variant__size d-flex">
                                                 <li className="variant__size--list">
-                                                    <input id="weight1" name="weight" type="radio" checked/>
-                                                    <label className="variant__size--value red" for="weight1">5 kg</label>
+                                                    <input id="weight1" name="weight" type="radio" defaultChecked/>
+                                                    <label className="variant__size--value red" htmlFor="weight1">5 kg</label>
                                                 </li>
                                                 <li className="variant__size--list">
                                                     <input id="weight2" name="weight" type="radio"/>
-                                                    <label className="variant__size--value red" for="weight2">3 kg</label>
+                                                    <label className="variant__size--value red" htmlFor="weight2">3 kg</label>
                                                 </li>
                                                 <li className="variant__size--list">
                                                     <input id="weight3" name="weight" type="radio"/>
-                                                    <label className="variant__size--value red" for="weight3">2 kg</label>
+                                                    <label className="variant__size--value red" htmlFor="weight3">2 kg</label>
                                                 </li>
                                             </ul>
                                         </fieldset>
@@ -218,7 +218,7 @@ export default class Model extends Component {
                                         <div className="quantity__box">
                                             <button type="button" className="quantity__value quickview__value--quantity decrease" aria-label="quantity value" value="Decrease Value">-</button>
                                             <label>
-                                                <input type="number" className="quantity__number quickview__value--number" value="1" data-counter />
+                                                <input type="number" className="quantity__number quickview__value--number" defaultValue="1" data-counter />
                                             </label>
                                             <button type="button" className="quantity__value quickview__value--quantity increase" aria-label="quantity value" value="Increase Value">+</button>
                                         </div>
@@ -226,7 +226,7 @@ export default class Model extends Component {
                                     </div>
                                     <div className="quickview__variant--list variant__wishlist mb-10">
                                         <Link className="variant__wishlist--icon" to="wishlist.html" title="Add to wishlist">
-                                            <svg className="quickview__variant--wishlist__svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+                                            <svg className="quickview__variant--wishlist__svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                             Add to Wishlist
                                         </Link>
                                     </div>
@@ -279,7 +279,7 @@ export default class Model extends Component {
      <div className="newsletter__popup" data-animation="slideInUp">
         <div id="boxes" className="newsletter__popup--inner">
             <button className="newsletter__popup--close__btn" aria-label="search close button">
-                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 512 512"><path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M368 368L144 144M368 144L144 368"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 512 512"><path fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M368 368L144 144M368 144L144 368"></path></svg>
             </button>
             <div className="box newsletter__popup--box d-flex align-items-center">
                 <div className="newsletter__popup--thumbnail">
@@ -296,7 +296,7 @@ export default class Model extends Component {
                             </form>
                             <div className="newsletter__popup--footer">
                                 <input type="checkbox" id="newsletter__dont--show"/>
-                                <label className="newsletter__popup--dontshow__again--text" for="newsletter__dont--show">Don't show this popup again</label>
+                                <label className="newsletter__popup--dontshow__again--text" htmlFor="newsletter__dont--show">Don't show this popup again</label>
                             </div>
                         </div>
                     </div>
