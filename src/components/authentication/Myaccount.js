@@ -45,7 +45,7 @@ export default class Myaccount extends Component {
             </div>
             <div className="account__wrapper">
                 <div className="account__content">
-                    <h2 className="account__content--title h3 mb-20">Orders History</h2>
+                    <h2 className="account__content--title h3 mb-20">Orde History</h2>
                     <div className="account__table--area">
                         <table className="account__table">
                             <thead className="account__table--header">
@@ -63,49 +63,49 @@ export default class Myaccount extends Component {
                                     <td className="account__table--body__child--items">November 24, 2022</td>
                                     <td className="account__table--body__child--items">Paid</td>
                                     <td className="account__table--body__child--items">Unfulfilled</td>
-                                    <td className="account__table--body__child--items">$40.00 USD</td>
+                                    <td className="account__table--body__child--items">40.00 </td>
                                 </tr>
                                 <tr className="account__table--body__child">
                                     <td className="account__table--body__child--items">#2024</td>
                                     <td className="account__table--body__child--items">November 24, 2022</td>
                                     <td className="account__table--body__child--items">Paid</td>
                                     <td className="account__table--body__child--items">Fulfilled</td>
-                                    <td className="account__table--body__child--items">$44.00 USD</td>
+                                    <td className="account__table--body__child--items">44.00 </td>
                                 </tr>
                                 <tr className="account__table--body__child">
                                     <td className="account__table--body__child--items">#2164</td>
                                     <td className="account__table--body__child--items">November 24, 2022</td>
                                     <td className="account__table--body__child--items">Paid</td>
                                     <td className="account__table--body__child--items">Unfulfilled</td>
-                                    <td className="account__table--body__child--items">$36.00 USD</td>
+                                    <td className="account__table--body__child--items">36.00 </td>
                                 </tr>
                                 <tr className="account__table--body__child">
                                     <td className="account__table--body__child--items">#2345</td>
                                     <td className="account__table--body__child--items">November 24, 2022</td>
                                     <td className="account__table--body__child--items">Paid</td>
                                     <td className="account__table--body__child--items">Unfulfilled</td>
-                                    <td className="account__table--body__child--items">$87.00 USD</td>
+                                    <td className="account__table--body__child--items">87.00 </td>
                                 </tr>
                                 <tr className="account__table--body__child">
                                     <td className="account__table--body__child--items">#1244</td>
                                     <td className="account__table--body__child--items">November 24, 2022</td>
                                     <td className="account__table--body__child--items">Paid</td>
                                     <td className="account__table--body__child--items">Fulfilled</td>
-                                    <td className="account__table--body__child--items">$66.00 USD</td>
+                                    <td className="account__table--body__child--items">66.00 </td>
                                 </tr>
                                 <tr className="account__table--body__child">
                                     <td className="account__table--body__child--items">#3455</td>
                                     <td className="account__table--body__child--items">November 24, 2022</td>
                                     <td className="account__table--body__child--items">Paid</td>
                                     <td className="account__table--body__child--items">Fulfilled</td>
-                                    <td className="account__table--body__child--items">$55.00 USD</td>
+                                    <td className="account__table--body__child--items">55.00 </td>
                                 </tr>
                                 <tr className="account__table--body__child">
                                     <td className="account__table--body__child--items">#4566</td>
                                     <td className="account__table--body__child--items">November 24, 2022</td>
                                     <td className="account__table--body__child--items">Paid</td>
                                     <td className="account__table--body__child--items">Unfulfilled</td>
-                                    <td className="account__table--body__child--items">$87.00 USD</td>
+                                    <td className="account__table--body__child--items">87.00 </td>
                                 </tr>
                             </tbody>
                             <tbody className="account__table--body mobile__block">
@@ -128,7 +128,7 @@ export default class Myaccount extends Component {
                                     </td>
                                     <td className="account__table--body__child--items">
                                         <strong>Total</strong>
-                                        <span>$40.00 USD</span>
+                                        <span>40.00 </span>
                                     </td>
                                 </tr>
                                 <tr className="account__table--body__child">
@@ -150,7 +150,7 @@ export default class Myaccount extends Component {
                                     </td>
                                     <td className="account__table--body__child--items">
                                         <strong>Total</strong>
-                                        <span>$40.00 USD</span>
+                                        <span>40.00 </span>
                                     </td>
                                 </tr>
                                 <tr className="account__table--body__child">
@@ -172,7 +172,7 @@ export default class Myaccount extends Component {
                                     </td>
                                     <td className="account__table--body__child--items">
                                         <strong>Total</strong>
-                                        <span>$40.00 USD</span>
+                                        <span>40.00 </span>
                                     </td>
                                 </tr>
                                 <tr className="account__table--body__child">
@@ -194,7 +194,7 @@ export default class Myaccount extends Component {
                                     </td>
                                     <td className="account__table--body__child--items">
                                         <strong>Total</strong>
-                                        <span>$40.00 USD</span>
+                                        <span>40.00 </span>
                                     </td>
                                 </tr>
                                 <tr className="account__table--body__child">
@@ -216,7 +216,7 @@ export default class Myaccount extends Component {
                                     </td>
                                     <td className="account__table--body__child--items">
                                         <strong>Total</strong>
-                                        <span>$40.00 USD</span>
+                                        <span>40.00 </span>
                                     </td>
                                 </tr>
                                 <tr className="account__table--body__child">
@@ -238,7 +238,7 @@ export default class Myaccount extends Component {
                                     </td>
                                     <td className="account__table--body__child--items">
                                         <strong>Total</strong>
-                                        <span>$40.00 USD</span>
+                                        <span>40.00 </span>
                                     </td>
                                 </tr>
                                 <tr className="account__table--body__child">
@@ -260,7 +260,7 @@ export default class Myaccount extends Component {
                                     </td>
                                     <td className="account__table--body__child--items">
                                         <strong>Total</strong>
-                                        <span>$40.00 USD</span>
+                                        <span>40.00 </span>
                                     </td>
                                 </tr>
                             </tbody>

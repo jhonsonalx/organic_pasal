@@ -39,27 +39,19 @@ export default class Productgallery extends Component {
                         <div  className="product__details--gallery">
                             <div  className="row row-cols-2">
                                 <div  className="col mb-28">
-                                    <img  className="display-block" src="assets/img/product/product1.png" alt="product gallery img"/>
+                                    <img  className="display-block" src="assets/img/product/bhindi.jpg" alt="product gallery img"/>
                                 </div>
-                                <div  className="col mb-28">
-                                    <img  className="display-block" src="assets/img/product/product2.png" alt="product gallery img"/>
-                                </div>
-                                <div  className="col mb-28">
-                                    <img  className="display-block" src="assets/img/product/product3.png" alt="product gallery img"/>
-                                </div>
-                                <div  className="col mb-28">
-                                    <img  className="display-block" src="assets/img/product/product4.png" alt="product gallery img"/>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>   
                     <div  className="col">
                         <div  className="product__details--info">
                             <form action="#">
-                                <h2  className="product__details--info__title mb-15">Red-tomato-isolated</h2>
+                                <h2  className="product__details--info__title mb-15">BHINDI</h2>
                                 <div  className="product__details--info__price mb-15">
-                                    <span  className="current__price">$58.00</span>
-                                    <span  className="old__price">$68.00</span>
+                                    <span  className="current__price">RS58.00</span>
+                                    <span  className="old__price">RS68.00</span>
                                 </div>
                                 <div  className="product__items--rating d-flex align-items-center mb-15">
                                     <ul  className="d-flex">

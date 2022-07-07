@@ -56,17 +56,17 @@ export default class Cart extends Component {
                                                             <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="16px" height="16px"><path d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"/></svg>
                                                         </button>
                                                         <div  className="cart__thumbnail">
-                                                            <Link to="/"><img  className="border-radius-5" src="assets/img/product/product1.png" alt="cart-product"/></Link >
+                                                            <Link to="/"><img  className="border-radius-5" src="assets/img/product/Pili.jpg" alt="cart-product"/></Link >
                                                         </div>
                                                         <div  className="cart__content">
-                                                            <h3  className="cart__content--title h4"><Link to="/">Fresh-whole-fish</Link ></h3>
+                                                            <h3  className="cart__content--title h4"><Link to="/">RATO KURSANI</Link ></h3>
                                                             <span  className="cart__content--variant">COLOR: Blue</span>
                                                             <span  className="cart__content--variant">WEIGHT: 2 Kg</span>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td  className="cart__table--body__list">
-                                                    <span  className="cart__price">£65.00</span>
+                                                    <span  className="cart__price">RS65.00</span>
                                                 </td>
                                                 <td  className="cart__table--body__list">
                                                     <div  className="quantity__box">
@@ -78,7 +78,7 @@ export default class Cart extends Component {
                                                     </div>
                                                 </td>
                                                 <td  className="cart__table--body__list">
-                                                    <span  className="cart__price end">£130.00</span>
+                                                    <span  className="cart__price end">RS130.00</span>
                                                 </td>
                                             </tr>
                                             <tr  className="cart__table--body__items">
@@ -88,17 +88,17 @@ export default class Cart extends Component {
                                                             <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="16px" height="16px"><path d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"/></svg>
                                                         </button>
                                                         <div  className="cart__thumbnail">
-                                                            <Link to="/"><img  className="border-radius-5" src="assets/img/product/product2.png" alt="cart-product"/></Link >
+                                                            <Link to="/"><img  className="border-radius-5" src="assets/img/product/naspati.JPG" alt="cart-product"/></Link >
                                                         </div>
                                                         <div  className="cart__content">
-                                                            <h3  className="cart__content--title h4"><Link to="/">Vegetable-healthy</Link ></h3>
+                                                            <h3  className="cart__content--title h4"><Link to="/">NASPATI</Link ></h3>
                                                             <span  className="cart__content--variant">COLOR: Blue</span>
                                                             <span  className="cart__content--variant">WEIGHT: 2 Kg</span>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td  className="cart__table--body__list">
-                                                    <span  className="cart__price">£65.00</span>
+                                                    <span  className="cart__price">RS65.00</span>
                                                 </td>
                                                 <td  className="cart__table--body__list">
                                                     <div  className="quantity__box">
@@ -110,7 +110,7 @@ export default class Cart extends Component {
                                                     </div>
                                                 </td>
                                                 <td  className="cart__table--body__list">
-                                                    <span  className="cart__price end">£130.00</span>
+                                                    <span  className="cart__price end">RS130.00</span>
                                                 </td>
                                             </tr>
                                             <tr  className="cart__table--body__items">
@@ -120,17 +120,17 @@ export default class Cart extends Component {
                                                             <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="16px" height="16px"><path d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"/></svg>
                                                         </button>
                                                         <div  className="cart__thumbnail">
-                                                            <Link to="/"><img  className="border-radius-5" src="assets/img/product/product3.png" alt="cart-product"/></Link >
+                                                            <Link to="/"><img  className="border-radius-5" src="assets/img/product/gghh.jpg" alt="cart-product"/></Link >
                                                         </div>
                                                         <div  className="cart__content">
-                                                            <h3  className="cart__content--title h4"><Link to="/">Raw-onions-surface</Link ></h3>
+                                                            <h3  className="cart__content--title h4"><Link to="/">BHENTA</Link ></h3>
                                                             <span  className="cart__content--variant">COLOR: Blue</span>
                                                             <span  className="cart__content--variant">WEIGHT: 2 Kg</span>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td  className="cart__table--body__list">
-                                                    <span  className="cart__price">£65.00</span>
+                                                    <span  className="cart__price">RS65.00</span>
                                                 </td>
                                                 <td  className="cart__table--body__list">
                                                     <div  className="quantity__box">
@@ -142,7 +142,7 @@ export default class Cart extends Component {
                                                     </div>
                                                 </td>
                                                 <td  className="cart__table--body__list">
-                                                    <span  className="cart__price end">£130.00</span>
+                                                    <span  className="cart__price end">RS130.00</span>
                                                 </td>
                                             </tr>
                                             <tr  className="cart__table--body__items">
@@ -152,17 +152,17 @@ export default class Cart extends Component {
                                                             <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="16px" height="16px"><path d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"/></svg>
                                                         </button>
                                                         <div  className="cart__thumbnail">
-                                                            <Link to="/"><img  className="border-radius-5" src="assets/img/product/product4.png" alt="cart-product"/></Link >
+                                                            <Link to="/"><img  className="border-radius-5" src="assets/img/product/cauli.jpg" alt="cart-product"/></Link >
                                                         </div>
                                                         <div  className="cart__content">
-                                                            <h3  className="cart__content--title h4"><Link to ="product-details.html">Red-tomato-isolated</Link ></h3>
+                                                            <h3  className="cart__content--title h4"><Link to ="product-details.html">CAULIFLOWER</Link ></h3>
                                                             <span  className="cart__content--variant">COLOR: Blue</span>
                                                             <span  className="cart__content--variant">WEIGHT: 2 Kg</span>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td  className="cart__table--body__list">
-                                                    <span  className="cart__price">£65.00</span>
+                                                    <span  className="cart__price">RS65.00</span>
                                                 </td>
                                                 <td  className="cart__table--body__list">
                                                     <div  className="quantity__box">
@@ -174,7 +174,7 @@ export default class Cart extends Component {
                                                     </div>
                                                 </td>
                                                 <td  className="cart__table--body__list">
-                                                    <span  className="cart__price end">£130.00</span>
+                                                    <span  className="cart__price end">RS130.00</span>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -207,11 +207,11 @@ export default class Cart extends Component {
                                             <tbody>
                                                 <tr  className="cart__summary--total__list">
                                                     <td  className="cart__summary--total__title text-left">SUBTOTAL</td>
-                                                    <td  className="cart__summary--amount text-right">$860.00</td>
+                                                    <td  className="cart__summary--amount text-right">RS860.00</td>
                                                 </tr>
                                                 <tr  className="cart__summary--total__list">
                                                     <td  className="cart__summary--total__title text-left">GRAND TOTAL</td>
-                                                    <td  className="cart__summary--amount text-right">$860.00</td>
+                                                    <td  className="cart__summary--amount text-right">RS860.00</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -244,8 +244,8 @@ export default class Cart extends Component {
                             <div  className="product__items product__items2">
                                 <div  className="product__items--thumbnail">
                                     <Link className="product__items--link" Link ="product-details.html">
-                                        <img  className="product__items--img product__primary--img" src="assets/img/product/product7.png" alt="product-img"/>
-                                        <img  className="product__items--img product__secondary--img" src="assets/img/product/product8.png" alt="product-img"/>
+                                        <img  className="product__items--img product__primary--img" src="assets/img/product/bhindi.jpg" alt="product-img"/>
+                                        
                                     </Link >
                                     <div  className="product__badge">
                                         <span  className="product__badge--items sale">Sale</span>
@@ -275,8 +275,8 @@ export default class Cart extends Component {
                                     <Link className="add__to--cart__btn" Link ="cart.html">+ Add to cart</Link >
                                     <h3  className="product__items--content__title h4"><Link to="/">Green-surface</Link ></h3>
                                     <div  className="product__items--price">
-                                        <span  className="current__price">$38.00</span>
-                                        <span  className="old__price">$40.00</span>
+                                        <span  className="current__price">RS38.00</span>
+                                        <span  className="old__price">RS40.00</span>
                                     </div>
                                     <div  className="product__items--rating d-flex justify-content-center align-items-center">
                                         <ul  className="d-flex">

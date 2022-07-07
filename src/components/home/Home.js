@@ -350,7 +350,7 @@ export default class Home extends Component {
                                         
                                         <div  className="product__items--content text-center">
                                              <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details"> </Link></h3>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">BHENTA</Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">RS48.00</span>
                                                 <span  className="old__price">RS54.00</span>
@@ -2057,6 +2057,27 @@ export default class Home extends Component {
                 </div>
             </div>
         </section>
+        <section  className="deals__banner--section banner__bg">
+            <div  className="container">
+                <div  className="row align-items-center">
+                    <div  className="col-lg-5 col-md-5 deals__baner--col">
+                        <div  className="deals__banner--content">
+                            <h3  className="deals__banner--content__subtitle text__secondary">Our country Nepal has more villages than towns. Most of the people are farmers. They depend on agriculture which is the backbone of the country and agriculture supplies people with the daily needs. Unless Nepal can develop agricultural sectors, the upliftment of the country is impossible. !</h3>
+                            <h2  className="deals__banner--content__maintitle">Grab The Best Offer 
+                                </h2>
+                            <p  className="deals__banner--content__desc">   Agricultural sectors provide us with many things. Firstly, we can get our food from agriculture. We can get fresh crops, vegetables, fruits, etc. from our farms. But in our country Nepal, development in agricultural has not been given a high priority. It is seen that most of the farmers applying traditional methods of farming. It is because most of the farmers in our country are not well-trained and educated. By following such useless traditional methods, they cannot have good and high production as expected. Some of the farmers who are trained, skilled apply modern methods of farming and get more benefits. The facilities of irrigation, modern-fertilizers, improved seeds and safe storage are not sufficient We realize that the solutions to these problems have been applied; that's why these problems can be solved in future. Agriculture feeds us supplying with daily needs. </p>
+                            <div  className="deals__banner--countdown d-flex" data-countdown="Sep 30, 2022 00:00:00"></div>
+                            
+                        </div>
+                    </div>
+                    <div  className="col-lg-7 col-md-7 deals__baner--col">
+                        <div  className="banner__items text-right">
+                             <Link  className="banner__items--thumbnail display-block"  to="shop"><img  className="banner__items--thumbnail__img display-block" src="assets/img/banner/agr1.jpg" alt="banner-layer-img"/> </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         
 
         {/* <!-- Start banner section --> */}
@@ -2109,7 +2130,7 @@ export default class Home extends Component {
                         <div  className="swiper-slide">
                             <div  className="blog__items">
                                 <div  className="blog__items--thumbnail">
-                                     <Link  className="blog__items--link"  to="blog-details"><img  className="blog__items--img" src="assets/img/blog/blog1.png" alt="blog-img"/> </Link>
+                                     <Link  className="blog__items--link"  to="blog-details"><img  className="blog__items--img" src="assets/img/blog/nepali4.jpg" alt="blog-img"/> </Link>
                                 </div>
                                 <div  className="blog__items--content">
                                     <div  className="blog__items--meta">

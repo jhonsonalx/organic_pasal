@@ -29,7 +29,7 @@ export default class Checkout extends Component {
                                         <span>Show order summary</span>
                                         <svg width="11" height="6" xmlns="http://www.w3.org/2000/svg" className="order-summary-toggle__dropdown" fill="currentColor"><path d="M.504 1.813l4.358 3.845.496.438.496-.438 4.642-4.096L9.504.438 4.862 4.534h.992L1.496.69.504 1.812z"></path></svg>
                                     </span>
-                                    <span className="order__summary--final__price">$227.70</span>
+                                    <span className="order__summary--final__price">RS227.70</span>
                                 </span>
                             </summary>
                             <div className="order__summary--section">
@@ -40,51 +40,51 @@ export default class Checkout extends Component {
                                                 <td className=" summary__table--list">
                                                     <div className="product__image two  d-flex align-items-center">
                                                         <div className="product__thumbnail border-radius-5">
-                                                            <Link to="/"><img className="border-radius-5" src="assets/img/product/small-product7.png" alt="cart-product"/></Link>
+                                                            <Link to="/"><img className="border-radius-5" src="assets/img/product/bhindi.jpg" alt="cart-product"/></Link>
                                                             <span className="product__thumbnail--quantity">1</span>
                                                         </div>
                                                         <div className="product__description">
-                                                            <h3 className="product__description--name h4"><Link to="/">Fresh-whole-fish</Link></h3>
+                                                            <h3 className="product__description--name h4"><Link to="/">BHINDI</Link></h3>
                                                             <span className="product__description--variant">COLOR: Blue</span>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td className=" summary__table--list">
-                                                    <span className="cart__price">£65.00</span>
+                                                    <span className="cart__price">RS65.00</span>
                                                 </td>
                                             </tr>
                                             <tr className="summary__table--items">
                                                 <td className=" summary__table--list">
                                                     <div className="cart__product d-flex align-items-center">
                                                         <div className="product__thumbnail border-radius-5">
-                                                            <Link to="/"><img className="border-radius-5" src="assets/img/product/small-product2.png" alt="cart-product"/></Link>
+                                                            <Link to="/"><img className="border-radius-5" src="assets/img/product/Pili.jpg" alt="cart-product"/></Link>
                                                             <span className="product__thumbnail--quantity">1</span>
                                                         </div>
                                                         <div className="product__description">
-                                                            <h3 className="product__description--name h4"><Link to="/">Vegetable-healthy</Link></h3>
+                                                            <h3 className="product__description--name h4"><Link to="/">RATO KURSANI</Link></h3>
                                                             <span className="product__description--variant">COLOR: Green</span>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td className=" summary__table--list">
-                                                    <span className="cart__price">£82.00</span>
+                                                    <span className="cart__price">RS82.00</span>
                                                 </td>
                                             </tr>
                                             <tr className=" summary__table--items">
                                                 <td className=" summary__table--list">
                                                     <div className="cart__product d-flex align-items-center">
                                                         <div className="product__thumbnail border-radius-5">
-                                                            <Link to="/"><img className="border-radius-5" src="assets/img/product/small-product4.png" alt="cart-product"/></Link>
+                                                            <Link to="/"><img className="border-radius-5" src="assets/img/product/naspati.JPG" alt="cart-product"/></Link>
                                                             <span className="product__thumbnail--quantity">1</span>
                                                         </div>
                                                         <div className="product__description">
-                                                            <h3 className="product__description--name h4"><Link to="/">Raw-onions-surface</Link></h3>
+                                                            <h3 className="product__description--name h4"><Link to="/">NASPATI</Link></h3>
                                                             <span className="product__description--variant">COLOR: White</span>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td className=" summary__table--list">
-                                                    <span className="cart__price">£78.00</span>
+                                                    <span className="cart__price">RS78.00</span>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -103,7 +103,7 @@ export default class Checkout extends Component {
                                         <tbody className="checkout__total--body">
                                             <tr className="checkout__total--items">
                                                 <td className="checkout__total--title text-left">Subtotal </td>
-                                                <td className="checkout__total--amount text-right">$860.00</td>
+                                                <td className="checkout__total--amount text-right">RS860.00</td>
                                             </tr>
                                             <tr className="checkout__total--items">
                                                 <td className="checkout__total--title text-left">Shipping</td>
@@ -113,7 +113,7 @@ export default class Checkout extends Component {
                                         <tfoot className="checkout__total--footer">
                                             <tr className="checkout__total--footer__items">
                                                 <td className="checkout__total--footer__title checkout__total--footer__list text-left">Total </td>
-                                                <td className="checkout__total--footer__amount checkout__total--footer__list text-right">$860.00</td>
+                                                <td className="checkout__total--footer__amount checkout__total--footer__list text-right">RS860.00</td>
                                             </tr>
                                         </tfoot>
                                     </table>
@@ -322,7 +322,7 @@ export default class Checkout extends Component {
                             <tbody className="checkout__total--body">
                                 <tr className="checkout__total--items">
                                     <td className="checkout__total--title text-left">Subtotal </td>
-                                    <td className="checkout__total--amount text-right">$860.00</td>
+                                    <td className="checkout__total--amount text-right">RS860.00</td>
                                 </tr>
                                 <tr className="checkout__total--items">
                                     <td className="checkout__total--title text-left">Shipping</td>
@@ -332,7 +332,7 @@ export default class Checkout extends Component {
                             <tfoot className="checkout__total--footer">
                                 <tr className="checkout__total--footer__items">
                                     <td className="checkout__total--footer__title checkout__total--footer__list text-left">Total </td>
-                                    <td className="checkout__total--footer__amount checkout__total--footer__list text-right">$860.00</td>
+                                    <td className="checkout__total--footer__amount checkout__total--footer__list text-right">RS860.00</td>
                                 </tr>
                             </tfoot>
                         </table>

@@ -38,18 +38,11 @@ export default class About extends Component {
                     <div className="col-lg-6">
                         <div className="about__thumb d-flex">
                             <div className="about__thumb--items">
-                                <img className="about__thumb--img border-radius-5 display-block" src="assets/img/other/about-thumb-list1.png" alt="about-thumb"/>
+                                <img className="about__thumb--img border-radius-5 display-block" src="assets/img/other/nepALI.jpg" alt="about-thumb"/>
                             </div>
                             <div className="about__thumb--items position__relative">
-                                <img className="about__thumb--img border-radius-5 display-block" src="assets/img/other/about-thumb-list2.png" alt="about-thumb"/>
-                                <div className="banner__bideo--play about__thumb--play">
-                                    <Link className="banner__bideo--play__icon about__thumb--play__icon glightbox" to="https://vimeo.com/115041822" data-gallery="video">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="23" viewBox="0 0 31 37">
-                                            <path id="Polygon_1" data-name="Polygon 1" d="M16.783,2.878a2,2,0,0,1,3.435,0l14.977,25.1A2,2,0,0,1,33.477,31H3.523a2,2,0,0,1-1.717-3.025Z" transform="translate(31) rotate(90)" fill="currentColor"/>
-                                        </svg> 
-                                        <span className="visually-hidden">bideo play</span>
-                                    </Link>
-                                </div>
+                                <img className="about__thumb--img border-radius-5 display-block" src="assets/img/other/nepalih6.jpg" alt="about-thumb"/>
+                            
                             </div>
                         </div>
                     </div>
@@ -57,13 +50,17 @@ export default class About extends Component {
                         <div className="about__content">
                             <span className="about__content--subtitle text__secondary mb-20"> Why Choose us</span>
                             <h2 className="about__content--maintitle mb-25">We do not buy from the open market & traders.</h2>
-                            <p className="about__content--desc mb-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit illo, est repellendus are quia voluptate neque reiciendis ea placeat labore maiores cum, hic ducimus ad a dolorem soluta consectetur adipisci. Perspiciatis quas ab quibusdam is.</p>
-                            <p className="about__content--desc mb-25">Itaque accusantium eveniet a laboriosam dolorem? Magni suscipit est corrupti explicabo non perspiciatis, excepturi ut asperiores assumenda rerum? Provident ab corrupti sequi, voluptates repudiandae eius odit aut.</p>
-                            <div className="about__author position__relative">
-                                <h3 className="about__author--name h4">Bruce Sutton</h3>
-                                <span className="about__author--rank">Spa Manager</span>
-                                <img className="about__author--signature" src="assets/img/icon/signature.png" alt="signature"/>
-                            </div>
+                            <p className="about__content--desc mb-20">Agriculture sector engages around 66% of the total population in Nepal. It contributes one-third of the nation's GDP with significant contribution to national economy. It creates a diverse array of jobs and employment from farming to small-scale enterprises.</p>
+                            <p className="about__content--desc mb-25">According to the International Labour Organisation, agriculture provides livelihoods for 68 percent of Nepal's population, accounting for 34 percent of the GDP. Nevertheless, Nepal struggles to produce an adequate supply of food for its citizens.
+
+Farmers have limited access to improved seeds, new technologies, and market opportunities. Declining agricultural production has depressed rural economies and increased widespread hunger and urban migration. Thirty-six percent of Nepali children under the age of 5 years suffer from chronic malnutrition, or stunting, which causes debilitating effects such as blindness, brain damage, and infectious diseases, which can result in lifetime damage.
+
+To address these challenges, USAID—under the U.S. Government’s Feed the Future Initiative—works with the Government of Nepal and local development partners to increase agricultural productivity, facilitate access to markets, and improve nutrition by enhancing both the production and consumption of more nutritious foods.
+
+Over the past five years, the Feed the Future Initiative has helped an estimated one million Nepalis increase their incomes through improved agricultural productivity and enhanced nutrition. As a result, poverty dropped by 36 percent between 2013 and 2015, stunting decreased from 49 percent to 36 percent from 2006 to 2016, and average farmer sales increased from $250 per year to an estimated $700 per year in the 24 south-western and central districts where these programs operate.
+
+Under the U.S. Government’s new Global Food Security Strategy, USAID will continue to work with Nepal—one of 12 focus countries worldwide—to scale up successful approaches to improve food security and nutrition.</p>
+                           
                         </div>
                     </div>
                 </div>

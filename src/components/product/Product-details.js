@@ -147,10 +147,10 @@ export default class Product extends Component {
                     <div  className="col">
                         <div  className="product__details--info">
                             <form action="#">
-                                <h2  className="product__details--info__title mb-15">Red-tomato-isolated</h2>
+                                <h2  className="product__details--info__title mb-15">Rato kursani</h2>
                                 <div  className="product__details--info__price mb-15">
-                                    <span  className="current__price">$58.00</span>
-                                    <span  className="old__price">$68.00</span>
+                                    <span  className="current__price">RS58.00</span>
+                                    <span  className="old__price">RS68.00</span>
                                 </div>
                                 <div  className="product__items--rating d-flex align-items-center mb-15">
                                     <ul  className="d-flex">
