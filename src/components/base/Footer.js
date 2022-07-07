@@ -19,7 +19,7 @@ export default class Footer extends Component {
                                 </button>
                             </h3>
                             <div className="footer__widget--inner">
-                                <Link className="footer__widget--logo" to="index.html"><img src="assets/img/logo/nav-log.png" alt="footer-logo"/></Link>
+                                <Link className="footer__widget--logo" to="index"><img src="assets/img/logo/logo.png" alt="footer-logo"/></Link>
                                 <p className="footer__widget--desc m-0">The variety of products available at our store at the moment is vast, but we still continue to widen our assortment.</p>
                                 <ul className="footer__widget--social d-flex">
                                     <li className="footer__widget--social__list">
@@ -58,84 +58,13 @@ export default class Footer extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-2 footer__col--width col-md-4 footer__col--padding">
-                        <div className="footer__widget">
-                            <h3 className="footer__widget--title">Information 
-                                <button className="footer__widget--button" aria-label="footer widget button">
-                                    <svg className="footer__widget--title__arrowdown--icon" xmlns="http://www.w3.org/2000/svg" width="12.355" height="8.394" viewBox="0 0 10.355 6.394">
-                                        <path  d="M15.138,8.59l-3.961,3.952L7.217,8.59,6,9.807l5.178,5.178,5.178-5.178Z" transform="translate(-6 -8.59)" fill="currentColor"></path>
-                                    </svg>
-                                </button>
-                            </h3>
-                            <ul className="footer__widget--menu footer__widget--inner">
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="about.html">About Us</Link></li>
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="contact.html">Contact Us</Link></li>
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="wishlist.html">Wishlist</Link></li>
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="portfolio.html">Portfolio</Link></li>
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="privacy-policy.html">Privacy Policy</Link></li>
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="faq.html">Frequently</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col-lg-2 footer__col--width col-md-4 footer__col--padding">
-                        <div className="footer__widget">
-                            <h3 className="footer__widget--title">Categories 
-                                <button className="footer__widget--button" aria-label="footer widget button">
-                                    <svg className="footer__widget--title__arrowdown--icon" xmlns="http://www.w3.org/2000/svg" width="12.355" height="8.394" viewBox="0 0 10.355 6.394">
-                                        <path  d="M15.138,8.59l-3.961,3.952L7.217,8.59,6,9.807l5.178,5.178,5.178-5.178Z" transform="translate(-6 -8.59)" fill="currentColor"></path>
-                                    </svg>
-                                </button>
-                            </h3>
-                            <ul className="footer__widget--menu footer__widget--inner">
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="shop.html">All Products</Link></li>
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="shop.html">Grocery & Frozen</Link></li>
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="shop.html">Fresh Fruits</Link></li>
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="shop.html">Package Foods</Link></li>
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="shop.html">Organic Foods</Link></li>
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="shop.html">Health & Wellness</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col-lg-2 footer__col--width col-md-4 footer__col--padding">
-                        <div className="footer__widget">
-                            <h3 className="footer__widget--title">My Account 
-                                <button className="footer__widget--button" aria-label="footer widget button">
-                                    <svg className="footer__widget--title__arrowdown--icon" xmlns="http://www.w3.org/2000/svg" width="12.355" height="8.394" viewBox="0 0 10.355 6.394">
-                                        <path  d="M15.138,8.59l-3.961,3.952L7.217,8.59,6,9.807l5.178,5.178,5.178-5.178Z" transform="translate(-6 -8.59)" fill="currentColor"></path>
-                                    </svg>
-                                </button>
-                            </h3>
-                            <ul className="footer__widget--menu footer__widget--inner">
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="my-account.html">My Account</Link></li>
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="cart.html">Shopping Cart</Link></li>
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="checkout.html">Checkout</Link></li>
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="login.html">Login</Link></li>
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="login.html">Register</Link></li>
-                                <li className="footer__widget--menu__list"><Link className="footer__widget--menu__text" to="compare.html">Compare</Link></li>
-                            </ul>
-                        </div>
-                    </div>
+                   
+                   
+                   
                     <div className="col-lg-3 col-md-5 footer__col--padding footer__col--order">
                         <div className="footer__widget">
-                            <h3 className="footer__widget--title">Newsletter 
-                                <button className="footer__widget--button" aria-label="footer widget button">
-                                    <svg className="footer__widget--title__arrowdown--icon" xmlns="http://www.w3.org/2000/svg" width="12.355" height="8.394" viewBox="0 0 10.355 6.394">
-                                        <path  d="M15.138,8.59l-3.961,3.952L7.217,8.59,6,9.807l5.178,5.178,5.178-5.178Z" transform="translate(-6 -8.59)" fill="currentColor"></path>
-                                    </svg>
-                                </button>
-                            </h3>
-                            <div className="footer__widget--inner">
-                                <p className="footer__widget--desc m-0">Get updates by subscribe 
-                                    our weekly newsletter</p> 
-                                <div className="newsletter__subscribe">
-                                    <form className="newsletter__subscribe--form" action="#">
-                                        <label>
-                                            <input className="newsletter__subscribe--input" placeholder="Your mail here ...." type="text"/>
-                                        </label>
-                                        <button className="newsletter__subscribe--button" type="submit">subscribe</button>
-                                    </form>   
-                                </div> 
-                            </div> 
+                            
+                           
                         </div>
                     </div>
                 </div>
@@ -143,19 +72,9 @@ export default class Footer extends Component {
             <div className="footer__bottom">
                 <div className="row justify-content-between align-items-center">
                     <div className="col-12 col-md-auto">
-                        <p className="copyright__content">Copyright © 2022 <Link className="copyright__content--link text__primary" to="index.html">Grocee</Link> . All Rights Reserved.Design By Grocee</p>
+                        <p className="copyright__content">Copyright © 2022 <Link className="copyright__content--link text__primary" to="index">Organic pasal</Link> . All Rights Reserved.Design By Organic pasal</p>
                     </div>
-                    <div className="col-12 col-md-auto">
-                        <div className="footer__payment">
-                            <ul className="footer__payment--inner d-flex">
-                                <li className="footer__payment--list"><img src="assets/img/other/payment1.png" alt="payment-img"/></li>
-                                <li className="footer__payment--list"><img src="assets/img/other/payment2.png" alt="payment-img"/></li>
-                                <li className="footer__payment--list"><img src="assets/img/other/payment3.png" alt="payment-img"/></li>
-                                <li className="footer__payment--list"><img src="assets/img/other/payment4.png" alt="payment-img"/></li>
-                                <li className="footer__payment--list"><img src="assets/img/other/payment5.png" alt="payment-img"/></li>
-                            </ul>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>

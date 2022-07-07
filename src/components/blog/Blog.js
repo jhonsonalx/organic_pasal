@@ -8,6 +8,7 @@ export default class Blog extends Component {
   render() {
     return (
         <React.Fragment>
+            <Header/>
             <div>
             <main className="main__content_wrapper">
         
@@ -19,7 +20,7 @@ export default class Blog extends Component {
                         <div className="breadcrumb__content text-center">
                             <h1 className="breadcrumb__content--title text-white mb-25">Blog Details</h1>
                             <ul className="breadcrumb__content--menu d-flex justify-content-center">
-                                <li className="breadcrumb__content--menu__items">< Link className="text-white"  to="index.html">Home </Link></li>
+                                <li className="breadcrumb__content--menu__items">< Link className="text-white"  to="index">Home </Link></li>
                                 <li className="breadcrumb__content--menu__items"><span className="text-white">Blog Details</span></li>
                             </ul>
                         </div>
@@ -38,7 +39,7 @@ export default class Blog extends Component {
                             <div className="entry__blog">
                                 <div className="blog__post--header mb-30">
                                     <h2 className="post__header--title mb-15">Lorem ipsum dolor, sit amet consectetur elit saepe!</h2>
-                                    <p className="blog__post--meta">Posted by : admin / On : February 14, 2022 / In : < Link className="blog__post--meta__link"  to="blog-details.html">Company, Image, Travel </Link></p>                                     
+                                    <p className="blog__post--meta">Posted by : admin / On : February 14, 2022 / In : < Link className="blog__post--meta__link"  to="blog-details">Company, Image, Travel </Link></p>                                     
                                 </div>
                                 <div className="blog__thumbnail mb-30">
                                     <img className="blog__thumbnail--img border-radius-10" src="assets/img/blog/blog-page-big1.png" alt="blog-img"/>
@@ -57,10 +58,10 @@ export default class Blog extends Component {
                                 <div className="blog__tags--media d-flex align-items-center">
                                     <label className="blog__tags--media__title">Releted Tags :</label>
                                     <ul className="d-flex">
-                                        <li className="blog__tags--media__list">< Link className="blog__tags--media__link"  to="blog.html">Popular </Link></li>
-                                        <li className="blog__tags--media__list">< Link className="blog__tags--media__link"  to="blog.html">Business </Link></li>
-                                        <li className="blog__tags--media__list">< Link className="blog__tags--media__link"  to="blog.html">desgin </Link></li>
-                                        <li className="blog__tags--media__list">< Link className="blog__tags--media__link"  to="blog.html">Service </Link></li>
+                                        <li className="blog__tags--media__list">< Link className="blog__tags--media__link"  to="blog">Popular </Link></li>
+                                        <li className="blog__tags--media__list">< Link className="blog__tags--media__link"  to="blog">Business </Link></li>
+                                        <li className="blog__tags--media__list">< Link className="blog__tags--media__link"  to="blog">desgin </Link></li>
+                                        <li className="blog__tags--media__list">< Link className="blog__tags--media__link"  to="blog">Service </Link></li>
                                     </ul>
                                 </div>
                                 <div className="blog__social--media d-flex align-items-center">
@@ -110,10 +111,10 @@ export default class Blog extends Component {
                                     <div className="col mb-28">
                                         <div className="related__post--items">
                                             <div className="related__post--thumb border-radius-10 mb-20">
-                                                < Link className="display-block"  to="blog-details.html"><img className="related__post--img display-block border-radius-10" src="assets/img/blog/related-post1.png" alt="related-post"/> </Link>
+                                                < Link className="display-block"  to="blog-details"><img className="related__post--img display-block border-radius-10" src="assets/img/blog/related-post1.png" alt="related-post"/> </Link>
                                             </div>
                                             <div className="related__post--text">
-                                                <h3 className="related__post--title mb-10">< Link className="related__post--title__link"  to="blog-details.html">Post With Gallery </Link></h3>
+                                                <h3 className="related__post--title mb-10">< Link className="related__post--title__link"  to="blog-details">Post With Gallery </Link></h3>
                                                 <span className="related__post--deta">February 14, 2022</span>
                                             </div>
                                         </div>
@@ -121,10 +122,10 @@ export default class Blog extends Component {
                                     <div className="col mb-28">
                                         <div className="related__post--items">
                                             <div className="related__post--thumb border-radius-10 mb-20">
-                                                < Link className="display-block"  to="blog-details.html"><img className="related__post--img display-block border-radius-10" src="assets/img/blog/related-post2.png" alt="related-post"/> </Link>
+                                                < Link className="display-block"  to="blog-details"><img className="related__post--img display-block border-radius-10" src="assets/img/blog/related-post2.png" alt="related-post"/> </Link>
                                             </div>
                                             <div className="related__post--text">
-                                                <h3 className="related__post--title mb-10">< Link className="related__post--title__link"  to="blog-details.html">Post With Vedio </Link></h3>
+                                                <h3 className="related__post--title mb-10">< Link className="related__post--title__link"  to="blog-details">Post With Vedio </Link></h3>
                                                 <span className="related__post--deta">February 14, 2022</span>
                                             </div>
                                         </div>
@@ -239,25 +240,25 @@ export default class Blog extends Component {
                                         </label>
                                         <ul className="widget__categories--sub__menu">
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories12.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">Discount Weekly</span>
                                                  </Link>
                                             </li>
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories15.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">Green dhaniya</span>
                                                  </Link>
                                             </li>
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories14.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">resh Nuts</span>
                                                  </Link>
                                             </li>
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories13.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">Millk Cream</span>
                                                  </Link>
@@ -274,25 +275,25 @@ export default class Blog extends Component {
                                         </label>
                                         <ul className="widget__categories--sub__menu">
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories12.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">Discount Weekly</span>
                                                  </Link>
                                             </li>
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories15.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">Green dhaniya</span>
                                                  </Link>
                                             </li>
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories14.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">resh Nuts</span>
                                                  </Link>
                                             </li>
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories13.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">Millk Cream</span>
                                                  </Link>
@@ -309,25 +310,25 @@ export default class Blog extends Component {
                                         </label>
                                         <ul className="widget__categories--sub__menu">
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories16.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">Discount Weekly</span>
                                                  </Link>
                                             </li>
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories15.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">Green dhaniya</span>
                                                  </Link>
                                             </li>
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories14.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">resh Nuts</span>
                                                  </Link>
                                             </li>
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories13.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">Millk Cream</span>
                                                  </Link>
@@ -344,25 +345,25 @@ export default class Blog extends Component {
                                         </label>
                                         <ul className="widget__categories--sub__menu">
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories12.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">Discount Weekly</span>
                                                  </Link>
                                             </li>
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories15.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">Green dhaniya</span>
                                                  </Link>
                                             </li>
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories14.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">resh Nuts</span>
                                                  </Link>
                                             </li>
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories13.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">Millk Cream</span>
                                                  </Link>
@@ -379,25 +380,25 @@ export default class Blog extends Component {
                                         </label>
                                         <ul className="widget__categories--sub__menu">
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories12.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">Discount Weekly</span>
                                                  </Link>
                                             </li>
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories15.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">Green dhaniya</span>
                                                  </Link>
                                             </li>
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories14.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">resh Nuts</span>
                                                  </Link>
                                             </li>
                                             <li className="widget__categories--sub__menu--list">
-                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details.html">
+                                                < Link className="widget__categories--sub__menu--link d-flex align-items-center"  to="blog-details">
                                                     <img className="widget__categories--sub__menu--img" src="assets/img/product/categories13.png" alt="categories-img"/>
                                                     <span className="widget__categories--sub__menu--text">Millk Cream</span>
                                                  </Link>
@@ -411,37 +412,37 @@ export default class Blog extends Component {
                                 <div className="product__grid--inner">
                                     <div className="product__grid--items d-flex align-items-center">
                                         <div className="product__grid--items--thumbnail">
-                                            < Link className="product__items--link"  to="blog-details.html">
+                                            < Link className="product__items--link"  to="blog-details">
                                                 <img className="product__grid--items__img product__primary--img" src="assets/img/product/small-product2.png" alt="product-img"/>
                                                 <img className="product__grid--items__img product__secondary--img" src="assets/img/product/small-product3.png" alt="product-img"/>
                                              </Link>
                                         </div>
                                         <div className="product__grid--items--content">
-                                            <h3 className="product__grid--items--content__title h4"><Link to="blog-details.html">Vegetables Green-surface </Link></h3>
+                                            <h3 className="product__grid--items--content__title h4"><Link to="blog-details">Vegetables Green-surface </Link></h3>
                                             <span className="meta__deta">February 14, 2022</span>
                                         </div>
                                     </div>
                                     <div className="product__grid--items d-flex align-items-center">
                                         <div className="product__grid--items--thumbnail">
-                                            < Link className="product__items--link"  to="blog-details.html">
+                                            < Link className="product__items--link"  to="blog-details">
                                                 <img className="product__grid--items__img product__primary--img" src="assets/img/product/small-product7.png" alt="product-img"/>
                                                 <img className="product__grid--items__img product__secondary--img" src="assets/img/product/small-product6.png" alt="product-img"/>
                                              </Link>
                                         </div>
                                         <div className="product__grid--items--content">
-                                            <h3 className="product__grid--items--content__title h4"><Link to="blog-details.html">Green-Mango Drinks </Link></h3>
+                                            <h3 className="product__grid--items--content__title h4"><Link to="blog-details">Green-Mango Drinks </Link></h3>
                                             <span className="meta__deta">February 14, 2022</span>
                                         </div>
                                     </div>
                                     <div className="product__grid--items d-flex align-items-center">
                                         <div className="product__grid--items--thumbnail">
-                                            < Link className="product__items--link"  to="blog-details.html">
+                                            < Link className="product__items--link"  to="blog-details">
                                                 <img className="product__grid--items__img product__primary--img" src="assets/img/product/small-product5.png" alt="product-img"/>
                                                 <img className="product__grid--items__img product__secondary--img" src="assets/img/product/small-product4.png" alt="product-img"/>
                                              </Link>
                                         </div>
                                         <div className="product__grid--items--content">
-                                            <h3 className="product__grid--items--content__title h4"><Link to="blog-details.html">Organic Fresh-Foods </Link></h3>
+                                            <h3 className="product__grid--items--content__title h4"><Link to="blog-details">Organic Fresh-Foods </Link></h3>
                                             <span className="meta__deta">February 14, 2022</span>
                                         </div>
                                     </div>
@@ -450,14 +451,14 @@ export default class Blog extends Component {
                             <div className="single__widget widget__bg">
                                 <h2 className="widget__title h3">Brands</h2>
                                 <ul className="widget__tagcloud">
-                                    <li className="widget__tagcloud--list">< Link className="widget__tagcloud--link"  to="blog-details.html">Organic </Link></li>
-                                    <li className="widget__tagcloud--list">< Link className="widget__tagcloud--link"  to="blog-details.html">Vegetable </Link></li>
-                                    <li className="widget__tagcloud--list">< Link className="widget__tagcloud--link"  to="blog-details.html">Giant </Link></li>
-                                    <li className="widget__tagcloud--list">< Link className="widget__tagcloud--link"  to="blog-details.html">Grocery </Link></li>
-                                    <li className="widget__tagcloud--list">< Link className="widget__tagcloud--link"  to="blog-details.html">Foods </Link></li>
-                                    <li className="widget__tagcloud--list">< Link className="widget__tagcloud--link"  to="blog-details.html">Bakery </Link></li>
-                                    <li className="widget__tagcloud--list">< Link className="widget__tagcloud--link"  to="blog-details.html">Dairies </Link></li>
-                                    <li className="widget__tagcloud--list">< Link className="widget__tagcloud--link"  to="blog-details.html">Nature  </Link></li>
+                                    <li className="widget__tagcloud--list">< Link className="widget__tagcloud--link"  to="blog-details">Organic </Link></li>
+                                    <li className="widget__tagcloud--list">< Link className="widget__tagcloud--link"  to="blog-details">Vegetable </Link></li>
+                                    <li className="widget__tagcloud--list">< Link className="widget__tagcloud--link"  to="blog-details">Giant </Link></li>
+                                    <li className="widget__tagcloud--list">< Link className="widget__tagcloud--link"  to="blog-details">Grocery </Link></li>
+                                    <li className="widget__tagcloud--list">< Link className="widget__tagcloud--link"  to="blog-details">Foods </Link></li>
+                                    <li className="widget__tagcloud--list">< Link className="widget__tagcloud--link"  to="blog-details">Bakery </Link></li>
+                                    <li className="widget__tagcloud--list">< Link className="widget__tagcloud--link"  to="blog-details">Dairies </Link></li>
+                                    <li className="widget__tagcloud--list">< Link className="widget__tagcloud--link"  to="blog-details">Nature  </Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -467,49 +468,7 @@ export default class Blog extends Component {
         </section>
         
 
-        {/* <!-- Start shipping section --> */}
-        <section className="shipping__section2 shipping__style3">
-            <div className="container">
-                <div className="shipping__section2--inner shipping__style3--inner d-flex justify-content-between">
-                    <div className="shipping__items2 d-flex align-items-center">
-                        <div className="shipping__items2--icon">
-                            <img className="display-block" src="assets/img/other/shipping1.png" alt="shipping img"/>
-                        </div>
-                        <div className="shipping__items2--content">
-                            <h2 className="shipping__items2--content__title h3">Shipping</h2>
-                            <p className="shipping__items2--content__desc">From handpicked sellers</p>
-                        </div>
-                    </div>
-                    <div className="shipping__items2 d-flex align-items-center">
-                        <div className="shipping__items2--icon">
-                            <img className="display-block" src="assets/img/other/shipping2.png" alt="shipping img"/>
-                        </div>
-                        <div className="shipping__items2--content">
-                            <h2 className="shipping__items2--content__title h3">Payment</h2>
-                            <p className="shipping__items2--content__desc">Visa, Paypal, Master</p>
-                        </div>
-                    </div>
-                    <div className="shipping__items2 d-flex align-items-center">
-                        <div className="shipping__items2--icon">
-                            <img className="display-block" src="assets/img/other/shipping3.png" alt="shipping img"/>
-                        </div>
-                        <div className="shipping__items2--content">
-                            <h2 className="shipping__items2--content__title h3">Return</h2>
-                            <p className="shipping__items2--content__desc">30 day guarantee</p>
-                        </div>
-                    </div>
-                    <div className="shipping__items2 d-flex align-items-center">
-                        <div className="shipping__items2--icon">
-                            <img className="display-block" src="assets/img/other/shipping4.png" alt="shipping img"/>
-                        </div>
-                        <div className="shipping__items2--content">
-                            <h2 className="shipping__items2--content__title h3">Support</h2>
-                            <p className="shipping__items2--content__desc">Support every time</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+       
        
     </main>
             
@@ -518,13 +477,8 @@ export default class Blog extends Component {
 
 
             </div>
-            
-
-          
- 
-        
-        
-          
+            <Footer/>
+            <Model/>
       
       </React.Fragment>
     )

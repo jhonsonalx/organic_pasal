@@ -7,6 +7,12 @@ import Contact from "./components/other/Contact";
 import Cart from "./components/pages/Cart";
 import Wishlist from "./components/pages/Wishlist";
 import Product from "./components/product/Product-details";
+import Productgallery from "./components/product/Productgallery";
+import Productleftsidebar from "./components/product/Product-left-sidebar";
+import Blog from "./components/blog/Blog";
+import Shop from "./components/shop/Shop";
+import Login from "./components/authentication/Login";
+import Myaccount from "./components/authentication/Myaccount";
 
 
 
@@ -34,12 +40,40 @@ export default function App() {
         <Route exact path="/contact">
           <Contact/>
         </Route>
+
         <Route exact path="/product">
           <Product/>
         </Route>
-         <Route exact path="/">
+
+         <Route exact path="/checkout">
            <Checkout/>
          </Route>
+
+         <Route exact path="/productgallery">
+           <Productgallery/>
+         </Route>
+
+         <Route exact path="/productleftsidebar">
+           <Productleftsidebar/>
+         </Route>
+
+         <Route exact path="/blog">
+            <Blog/>
+         </Route>
+
+        <Route exact path="/shop">
+          <Shop/>
+        </Route>
+
+        <Route exact path="/login">
+          <Login/>
+        </Route>
+
+        <Route exact path="/myaccount">
+          <Myaccount/>
+        </Route>
+
+
 
 
            

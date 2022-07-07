@@ -16,7 +16,7 @@ export default class Checkout extends Component {
             <div className="checkout__page--inner d-flex">
                 <div className="main checkout__mian">
                     <header className="main__header checkout__mian--header mb-30">
-                        <h1 className="main__logo--title"><Link className="logo logo__left mb-20" to="index.html"><img src="assets/img/logo/nav-log.png" alt="logo"/></Link></h1>
+                        <h1 className="main__logo--title"><Link className="logo logo__left mb-20" to="index.html"><img src="assets/img/logo/logo.png" alt="logo"/></Link></h1>
                         <details className="order__summary--mobile__version">
                             <summary className="order__summary--toggle border-radius-5">
                                 <span className="order__summary--toggle__inner">
@@ -249,9 +249,7 @@ export default class Checkout extends Component {
                             </div>
                         </form>
                     </main>
-                    <footer className="main__footer main__footer--wrapper">
-                        <p className="copyright__content">Copyright © 2022 <Link className="copyright__content--link text__primary" to="index.html">Grocee</Link> . All Rights Reserved.Design By Grocee</p>
-                    </footer>
+                   
                 </div>
                 <aside className="checkout__sidebar sidebar">
                     <div className="cart__table checkout__product--table">

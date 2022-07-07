@@ -30,12 +30,12 @@ export default class Home extends Component {
                                                 <h2  className="slider__content--maintitle h1">Natural is <span  className="text__secondary">always</span> <br/>
                                                     Healthy</h2>
                                                 <p  className="slider__content--desc">The more you love your health, more you eat organic. No medicine can heal you better than organic food does</p>    
-                                                 <Link className="btn slider__btn"  to="shop.html">Shop Now </Link>
+                                                 <Link className="btn slider__btn"  to="shop">Shop Now </Link>
                                             </div>
                                         </div>
                                         <div  className="col">
                                             <div  className="hero__slider--layer">
-                                                <img  className="slider__layer--img " src="assets/img/slider/home1-slider1-layer.png" alt="slider-img"/>
+                                                <img  className="slider__layer--img " src="assets/img/slider/photo2.jpg" alt="slider-img"/>
                                             </div>
                                         </div>
                                     </div>
@@ -54,7 +54,7 @@ export default class Home extends Component {
                                                 <h2  className="slider__content--maintitle h1">Natural is <span  className="text__secondary">always</span> <br/>
                                                     Healthy</h2>
                                                 <p  className="slider__content--desc">The more you love your health, more you eat organic. No medicine can heal you better than organic food does</p>    
-                                                 <Link  className="btn slider__btn"  to="shop.html">Shop Now </Link>
+                                                 <Link  className="btn slider__btn"  to="shop">Shop Now </Link>
                                             </div>
                                         </div>
                                         <div  className="col">
@@ -78,7 +78,7 @@ export default class Home extends Component {
                                                 <h2  className="slider__content--maintitle h1">Natural is <span  className="text__secondary">always</span> <br/>
                                                     Healthy</h2>
                                                 <p  className="slider__content--desc">The more you love your health, more you eat organic. No medicine can heal you better than organic food does</p>    
-                                                 <Link  className="btn slider__btn"  to="shop.html">Shop Now </Link>
+                                                 <Link  className="btn slider__btn"  to="shop">Shop Now </Link>
                                             </div>
                                         </div>
                                         <div  className="col">
@@ -94,129 +94,44 @@ export default class Home extends Component {
                 </div>
                 <div  className="slider__pagination swiper-pagination"></div>
             </div>
-        </section>
-        
-
-        {/* <!-- Start categories product section --> */}
-        <section  className="product__section product__categories--section section--padding">
-            <div  className="container">
-                <div  className="section__heading text-center mb-40">
-                    <span  className="section__heading--subtitle">Recently added our store</span>
-                    <h2  className="section__heading--maintitle">Our Hottest Categories</h2>
-                </div>
-                <div  className="product__section--inner product__swiper--activation swiper">
-                    <div  className="swiper-wrapper">
-                        <div  className="swiper-slide">
-                            <div  className="product__items product__bg">
-                                <div  className="product__items--thumbnail">
-                                     <Link  className="product__items--link"  to="shop.html"><img  className="product__items--img" src="assets/img/product/categories1.png" alt="categories-img"/>
-                                        <div  className="product__categories--content d-flex justify-content-between align-items-center">
-                                            <div  className="product__categories--content__left">
-                                                <h3  className="product__categories--content__maintitle">Raw-steak</h3>
-                                                <span  className="product__categories--content__subtitle">99 items</span>
-                                            </div>
-                                            <div  className="product__categories--icon">
-                                                <span  className="product__categories--icon__link">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.995" height="10.979" viewBox="0 0 15.995 10.979">
-                                                        <path  d="M212.706,299.839a.425.425,0,0,0,0-.6l-3.458-3.458a.425.425,0,0,1,0-.6l1.008-1.008a.425.425,0,0,1,.6,0l5.065,5.065a.425.425,0,0,1,0,.6l-5.065,5.066a.425.425,0,0,1-.6,0l-1.008-1.008a.425.425,0,0,1,0-.6Zm-6.305-.3a2.215,2.215,0,1,0,2.216-2.216A2.215,2.215,0,0,0,206.4,299.541Zm-3.634,0a1.6,1.6,0,1,0,1.6-1.605A1.6,1.6,0,0,0,202.767,299.541Zm-2.717,0a1.154,1.154,0,1,0,1.154-1.154A1.155,1.155,0,0,0,200.05,299.541Z" transform="translate(-200.05 -294.05)" fill="currentColor"/>
-                                                    </svg>
-                                                </span>
+            <section  className="hero__slider--section">
+            <div  className="hero__slider--inner hero__slider--activation swiper">
+                <div  className="hero__slider--wrapper swiper-wrapper">
+                    <div  className="swiper-slide ">
+                        <div  className="hero__slider--items bg__gray--color">
+                            <div  className="container slider__items--container">
+                                <div  className="hero__slider--items__inner">
+                                    <div  className="row row-cols-lg-2 row-cols-md-2 row-cols-1 align-items-center">
+                                        <div  className="col">
+                                            <div  className="slider__content slider__content--padding__left">
+                                                <span  className="slider__content--subtitle text__secondary"></span>
+                                                <h2  className="slider__content--maintitle h1">NEPALI<span  className="text__secondary"></span> <br/>
+                                                    FRUITS<br/>
+                                                     </h2>
+                                                <p  className="slider__content--desc">Fruits are an excellent source of essential vitamins and minerals, and they are high in fiber. Fruits also provide a wide range of health-boosting antioxidants, including flavonoids. Eating a diet high in fruits and vegetables can reduce a person's risk of developing heart disease, cancer, inflammation, and diabetes.</p>    
+                                                 
                                             </div>
                                         </div>
-                                     </Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div  className="swiper-slide">
-                            <div  className="product__items product__bg">
-                                <div  className="product__items--thumbnail">
-                                     <Link  className="product__items--link"  to="shop.html"><img  className="product__items--img" src="assets/img/product/categories2.png" alt="categories-img"/>
-                                        <div  className="product__categories--content d-flex justify-content-between align-items-center">
-                                            <div  className="product__categories--content__left">
-                                                <h3  className="product__categories--content__maintitle">Broccoli</h3>
-                                                <span  className="product__categories--content__subtitle">88 items</span>
-                                            </div>
-                                            <div  className="product__categories--icon">
-                                                <span  className="product__categories--icon__link">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.995" height="10.979" viewBox="0 0 15.995 10.979">
-                                                        <path  d="M212.706,299.839a.425.425,0,0,0,0-.6l-3.458-3.458a.425.425,0,0,1,0-.6l1.008-1.008a.425.425,0,0,1,.6,0l5.065,5.065a.425.425,0,0,1,0,.6l-5.065,5.066a.425.425,0,0,1-.6,0l-1.008-1.008a.425.425,0,0,1,0-.6Zm-6.305-.3a2.215,2.215,0,1,0,2.216-2.216A2.215,2.215,0,0,0,206.4,299.541Zm-3.634,0a1.6,1.6,0,1,0,1.6-1.605A1.6,1.6,0,0,0,202.767,299.541Zm-2.717,0a1.154,1.154,0,1,0,1.154-1.154A1.155,1.155,0,0,0,200.05,299.541Z" transform="translate(-200.05 -294.05)" fill="currentColor"/>
-                                                    </svg>
-                                                </span>
+                                        <div  className="col">
+                                            <div  className="hero__slider--layer">
+                                                <img  className="slider__layer--img " src="assets/img/slider/fur1.jpg" alt="slider-img"/>
                                             </div>
                                         </div>
-                                     </Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div  className="swiper-slide">
-                            <div  className="product__items product__bg">
-                                <div  className="product__items--thumbnail">
-                                     <Link  className="product__items--link"  to="shop.html"><img  className="product__items--img" src="assets/img/product/categories3.png" alt="categories-img"/>
-                                        <div  className="product__categories--content d-flex justify-content-between align-items-center">
-                                            <div  className="product__categories--content__left">
-                                                <h3  className="product__categories--content__maintitle">Cabbage</h3>
-                                                <span  className="product__categories--content__subtitle">90 items</span>
-                                            </div>
-                                            <div  className="product__categories--icon">
-                                                <span  className="product__categories--icon__link">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.995" height="10.979" viewBox="0 0 15.995 10.979">
-                                                        <path  d="M212.706,299.839a.425.425,0,0,0,0-.6l-3.458-3.458a.425.425,0,0,1,0-.6l1.008-1.008a.425.425,0,0,1,.6,0l5.065,5.065a.425.425,0,0,1,0,.6l-5.065,5.066a.425.425,0,0,1-.6,0l-1.008-1.008a.425.425,0,0,1,0-.6Zm-6.305-.3a2.215,2.215,0,1,0,2.216-2.216A2.215,2.215,0,0,0,206.4,299.541Zm-3.634,0a1.6,1.6,0,1,0,1.6-1.605A1.6,1.6,0,0,0,202.767,299.541Zm-2.717,0a1.154,1.154,0,1,0,1.154-1.154A1.155,1.155,0,0,0,200.05,299.541Z" transform="translate(-200.05 -294.05)" fill="currentColor"/>
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                     </Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div  className="swiper-slide">
-                            <div  className="product__items product__bg">
-                                <div  className="product__items--thumbnail">
-                                     <Link  className="product__items--link"  to="shop.html"><img  className="product__items--img" src="assets/img/product/categories4.png" alt="categories-img"/>
-                                        <div  className="product__categories--content d-flex justify-content-between align-items-center">
-                                            <div  className="product__categories--content__left">
-                                                <h3  className="product__categories--content__maintitle">Raw-onions</h3>
-                                                <span  className="product__categories--content__subtitle">92 items</span>
-                                            </div>
-                                            <div  className="product__categories--icon">
-                                                <span  className="product__categories--icon__link">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.995" height="10.979" viewBox="0 0 15.995 10.979">
-                                                        <path  d="M212.706,299.839a.425.425,0,0,0,0-.6l-3.458-3.458a.425.425,0,0,1,0-.6l1.008-1.008a.425.425,0,0,1,.6,0l5.065,5.065a.425.425,0,0,1,0,.6l-5.065,5.066a.425.425,0,0,1-.6,0l-1.008-1.008a.425.425,0,0,1,0-.6Zm-6.305-.3a2.215,2.215,0,1,0,2.216-2.216A2.215,2.215,0,0,0,206.4,299.541Zm-3.634,0a1.6,1.6,0,1,0,1.6-1.605A1.6,1.6,0,0,0,202.767,299.541Zm-2.717,0a1.154,1.154,0,1,0,1.154-1.154A1.155,1.155,0,0,0,200.05,299.541Z" transform="translate(-200.05 -294.05)" fill="currentColor"/>
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                     </Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div  className="swiper-slide">
-                            <div  className="product__items product__bg">
-                                <div  className="product__items--thumbnail">
-                                     <Link  className="product__items--link"  to="shop.html"><img  className="product__items--img" src="assets/img/product/categories2.png" alt="categories-img"/>
-                                        <div  className="product__categories--content d-flex justify-content-between align-items-center">
-                                            <div  className="product__categories--content__left">
-                                                <h3  className="product__categories--content__maintitle">Broccoli</h3>
-                                                <span  className="product__categories--content__subtitle">88 items</span>
-                                            </div>
-                                            <div  className="product__categories--icon">
-                                                <span  className="product__categories--icon__link">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.995" height="10.979" viewBox="0 0 15.995 10.979">
-                                                        <path  d="M212.706,299.839a.425.425,0,0,0,0-.6l-3.458-3.458a.425.425,0,0,1,0-.6l1.008-1.008a.425.425,0,0,1,.6,0l5.065,5.065a.425.425,0,0,1,0,.6l-5.065,5.066a.425.425,0,0,1-.6,0l-1.008-1.008a.425.425,0,0,1,0-.6Zm-6.305-.3a2.215,2.215,0,1,0,2.216-2.216A2.215,2.215,0,0,0,206.4,299.541Zm-3.634,0a1.6,1.6,0,1,0,1.6-1.605A1.6,1.6,0,0,0,202.767,299.541Zm-2.717,0a1.154,1.154,0,1,0,1.154-1.154A1.155,1.155,0,0,0,200.05,299.541Z" transform="translate(-200.05 -294.05)" fill="currentColor"/>
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                     </Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div  className="swiper__nav--btn swiper-button-next"></div>
-                    <div  className="swiper__nav--btn swiper-button-prev"></div>
-                </div>
-            </div>
+                    </div>
+                    </div>
+                    </section>
+            
         </section>
+        
+
+        {/* <!-- Start categories product section --> */}
+       
+        
         
 
         {/* <!-- Start product section --> */}
@@ -228,10 +143,9 @@ export default class Home extends Component {
                 </div>
                 <ul  className="product__tab--one product__tab--btn d-flex justify-content-center mb-35">
                     <li  className="product__tab--btn__list active" data-toggle="tab" data-target="#product_all">All</li>
-                    <li  className="product__tab--btn__list" data-toggle="tab" data-target="#product_fresh">Fresh</li>
+                  
                     <li  className="product__tab--btn__list" data-toggle="tab" data-target="#product_fruits">Fruits </li>
-                    <li  className="product__tab--btn__list" data-toggle="tab" data-target="#product_nature">Nature</li>
-                    <li  className="product__tab--btn__list" data-toggle="tab" data-target="#product_recipies">Recipies </li>
+          
                     <li  className="product__tab--btn__list" data-toggle="tab" data-target="#product_vegetable">Vegetable </li>
                 </ul>
                 <div  className="tab_content">
@@ -241,16 +155,16 @@ export default class Home extends Component {
                                 <div  className="col md-28">
                                     <div  className="product__items ">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
-                                                <img  className="product__items--img product__primary--img" src="assets/img/product/product1.png" alt="product-img"/>
-                                                <img  className="product__items--img product__secondary--img" src="assets/img/product/product2.png" alt="product-img"/>
+                                             <Link  className="product__items--link"  to="product-details">
+                                                <img  className="product__items--img product__primary--img" src="assets/img/product/naspati.JPG" alt="product-img"/>
+                                              
                                              </Link>
                                             <div  className="product__badge">
                                                 <span  className="product__badge--items sale">Sale</span>
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -262,7 +176,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -270,11 +184,11 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Vegetable-healthy </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details"> NASPATI </Link></h3>
                                             <div  className="product__items--price">
-                                                <span  className="current__price">$39.00</span>
-                                                <span  className="old__price">$59.00</span>
+                                                <span  className="current__price">RS39.00</span>
+                                                <span  className="old__price">RS59.00</span>
                                             </div>
                                         </div>
                                     </div>
@@ -282,16 +196,16 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items ">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
-                                                <img  className="product__items--img product__primary--img" src="assets/img/product/product3.png" alt="product-img"/>
-                                                <img  className="product__items--img product__secondary--img" src="assets/img/product/product4.png" alt="product-img"/>
+                                             <Link  className="product__items--link"  to="product-details">
+                                                <img  className="product__items--img product__primary--img" src="assets/img/product/bhindi.jpg" alt="product-img"/>
+                                              
                                              </Link>
                                             <div  className="product__badge">
                                                 <span  className="product__badge--items sale">Sale</span>
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -303,7 +217,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -311,11 +225,11 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Fresh-whole-fish </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">BHINDI </Link></h3>
                                             <div  className="product__items--price">
-                                                <span  className="current__price">$42.00</span>
-                                                <span  className="old__price">$48.00</span>
+                                                <span  className="current__price">RS42.00</span>
+                                                <span  className="old__price">RS48.00</span>
                                             </div>
                                         </div>
                                     </div>
@@ -323,16 +237,16 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
-                                                <img  className="product__items--img product__primary--img" src="assets/img/product/product5.png" alt="product-img"/>
-                                                <img  className="product__items--img product__secondary--img" src="assets/img/product/product6.png" alt="product-img"/>
+                                             <Link  className="product__items--link"  to="product-details">
+                                                <img  className="product__items--img product__primary--img" src="assets/img/product/cauli.jpg" alt="product-img"/>
+                                               
                                              </Link>
                                             <div  className="product__badge">
                                                 <span  className="product__badge--items sale">Sale</span>
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -344,7 +258,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -352,11 +266,11 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Chili-pepper </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">CAULIFLOWER </Link></h3>
                                             <div  className="product__items--price">
-                                                <span  className="current__price">$38.00</span>
-                                                <span  className="old__price">$44.00</span>
+                                                <span  className="current__price">RS38.00</span>
+                                                <span  className="old__price">RS44.00</span>
                                             </div>
                                         </div>
                                     </div>
@@ -364,16 +278,16 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
-                                                <img  className="product__items--img product__primary--img" src="assets/img/product/product7.png" alt="product-img"/>
-                                                <img  className="product__items--img product__secondary--img" src="assets/img/product/product8.png" alt="product-img"/>
+                                             <Link  className="product__items--link"  to="product-details">
+                                                <img  className="product__items--img product__primary--img" src="assets/img/product/kurasni.png" alt="product-img"/>
+                                               
                                              </Link>
                                             <div  className="product__badge">
                                                 <span  className="product__badge--items sale">Sale</span>
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -385,7 +299,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -393,11 +307,11 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Green-surface </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">KURSANI </Link></h3>
                                             <div  className="product__items--price">
-                                                <span  className="current__price">$38.00</span>
-                                                <span  className="old__price">$40.00</span>
+                                                <span  className="current__price">RS38.00</span>
+                                                <span  className="old__price">RS40.00</span>
                                             </div>
                                         </div>
                                     </div>
@@ -405,16 +319,16 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
-                                                <img  className="product__items--img product__primary--img" src="assets/img/product/product2.png" alt="product-img"/>
-                                                <img  className="product__items--img product__secondary--img" src="assets/img/product/product1.png" alt="product-img"/>
+                                             <Link  className="product__items--link"  to="product-details">
+                                                <img  className="product__items--img product__primary--img" src="assets/img/product/gghh.jpg" alt="product-img"/>
+                                                
                                              </Link>
                                             <div  className="product__badge">
                                                 <span  className="product__badge--items sale">Sale</span>
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -426,142 +340,20 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
                                                 </li>
                                             </ul>
                                         </div>
+                                        
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Red-tomato-isolated </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details"> </Link></h3>
                                             <div  className="product__items--price">
-                                                <span  className="current__price">$52.00</span>
-                                                <span  className="old__price">$62.00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div  className="col mb-28">
-                                    <div  className="product__items">
-                                        <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
-                                                <img  className="product__items--img product__primary--img" src="assets/img/product/product4.png" alt="product-img"/>
-                                                <img  className="product__items--img product__secondary--img" src="assets/img/product/product3.png" alt="product-img"/>
-                                             </Link>
-                                            <div  className="product__badge">
-                                                <span  className="product__badge--items sale">Sale</span>
-                                            </div>
-                                            <ul  className="product__items--action">
-                                                <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
-                                                        <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
-                                                        <span  className="visually-hidden">Wishlist</span> 
-                                                     </Link>
-                                                </li>
-                                                <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn" data-open="modal1"  to="javascript:void(0)">
-                                                        <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" strokeMiterlimit="10" strokeWidth="32"/><path fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit="10" strokeWidth="32" d="M338.29 338.29L448 448"/></svg>
-                                                        <span  className="visually-hidden">Quick View</span>  
-                                                     </Link>
-                                                </li>
-                                                <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
-                                                        <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
-                                                        <span  className="visually-hidden">Compare</span>    
-                                                     </Link>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Raw-onions-surface </Link></h3>
-                                            <div  className="product__items--price">
-                                                <span  className="current__price">$58.00</span>
-                                                <span  className="old__price">$68.00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div  className="col mb-28">
-                                    <div  className="product__items">
-                                        <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
-                                                <img  className="product__items--img product__primary--img" src="assets/img/product/product6.png" alt="product-img"/>
-                                                <img  className="product__items--img product__secondary--img" src="assets/img/product/product5.png" alt="product-img"/>
-                                             </Link>
-                                            <div  className="product__badge">
-                                                <span  className="product__badge--items sale">Sale</span>
-                                            </div>
-                                            <ul  className="product__items--action">
-                                                <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
-                                                        <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
-                                                        <span  className="visually-hidden">Wishlist</span> 
-                                                     </Link>
-                                                </li>
-                                                <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn" data-open="modal1"  to="javascript:void(0)">
-                                                        <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" strokeMiterlimit="10" strokeWidth="32"/><path fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit="10" strokeWidth="32" d="M338.29 338.29L448 448"/></svg>
-                                                        <span  className="visually-hidden">Quick View</span>  
-                                                     </Link>
-                                                </li>
-                                                <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
-                                                        <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
-                                                        <span  className="visually-hidden">Compare</span>    
-                                                     </Link>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Chili-pepper </Link></h3>
-                                            <div  className="product__items--price">
-                                                <span  className="current__price">$52.00</span>
-                                                <span  className="old__price">$62.00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div  className="col mb-28">
-                                    <div  className="product__items">
-                                        <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
-                                                <img  className="product__items--img product__primary--img" src="assets/img/product/product8.png" alt="product-img"/>
-                                                <img  className="product__items--img product__secondary--img" src="assets/img/product/product7.png" alt="product-img"/>
-                                             </Link>
-                                            <div  className="product__badge">
-                                                <span  className="product__badge--items sale">Sale</span>
-                                            </div>
-                                            <ul  className="product__items--action">
-                                                <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
-                                                        <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
-                                                        <span  className="visually-hidden">Wishlist</span> 
-                                                     </Link>
-                                                </li>
-                                                <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn" data-open="modal1"  to="javascript:void(0)">
-                                                        <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" strokeMiterlimit="10" strokeWidth="32"/><path fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit="10" strokeWidth="32" d="M338.29 338.29L448 448"/></svg>
-                                                        <span  className="visually-hidden">Quick View</span>  
-                                                     </Link>
-                                                </li>
-                                                <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
-                                                        <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
-                                                        <span  className="visually-hidden">Compare</span>    
-                                                     </Link>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Papaya-green </Link></h3>
-                                            <div  className="product__items--price">
-                                                <span  className="current__price">$48.00</span>
-                                                <span  className="old__price">$54.00</span>
+                                                <span  className="current__price">RS48.00</span>
+                                                <span  className="old__price">RS54.00</span>
                                             </div>
                                         </div>
                                     </div>
@@ -575,7 +367,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product2.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product1.png" alt="product-img"/>
                                              </Link>
@@ -584,7 +376,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -596,7 +388,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -604,8 +396,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Red-tomato-isolated </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Red-tomato-isolated </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$52.00</span>
                                                 <span  className="old__price">$62.00</span>
@@ -616,7 +408,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product4.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product3.png" alt="product-img"/>
                                              </Link>
@@ -625,7 +417,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -637,7 +429,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -645,8 +437,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Raw-onions-surface </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Raw-onions-surface </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$58.00</span>
                                                 <span  className="old__price">$68.00</span>
@@ -657,7 +449,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product6.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product5.png" alt="product-img"/>
                                              </Link>
@@ -666,7 +458,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -678,7 +470,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -686,8 +478,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Chili-pepper </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Chili-pepper </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$52.00</span>
                                                 <span  className="old__price">$62.00</span>
@@ -698,7 +490,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product8.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product7.png" alt="product-img"/>
                                              </Link>
@@ -707,7 +499,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -719,7 +511,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -727,8 +519,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Papaya-green </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Papaya-green </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$48.00</span>
                                                 <span  className="old__price">$54.00</span>
@@ -739,7 +531,7 @@ export default class Home extends Component {
                                 <div  className="col md-28">
                                     <div  className="product__items ">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product1.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product2.png" alt="product-img"/>
                                              </Link>
@@ -748,7 +540,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -760,7 +552,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -768,8 +560,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Vegetable-healthy </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Vegetable-healthy </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$39.00</span>
                                                 <span  className="old__price">$59.00</span>
@@ -780,7 +572,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items ">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product3.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product4.png" alt="product-img"/>
                                              </Link>
@@ -789,7 +581,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -801,7 +593,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -809,8 +601,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Fresh-whole-fish </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Fresh-whole-fish </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$42.00</span>
                                                 <span  className="old__price">$48.00</span>
@@ -821,7 +613,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product5.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product6.png" alt="product-img"/>
                                              </Link>
@@ -830,7 +622,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -842,7 +634,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -850,8 +642,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Chili-pepper </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Chili-pepper </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$38.00</span>
                                                 <span  className="old__price">$44.00</span>
@@ -862,7 +654,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product7.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product8.png" alt="product-img"/>
                                              </Link>
@@ -871,7 +663,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -883,7 +675,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -891,8 +683,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Green-surface </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Green-surface </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$38.00</span>
                                                 <span  className="old__price">$40.00</span>
@@ -909,7 +701,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product5.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product6.png" alt="product-img"/>
                                              </Link>
@@ -918,7 +710,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -930,7 +722,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -938,8 +730,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Chili-pepper </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Chili-pepper </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$38.00</span>
                                                 <span  className="old__price">$44.00</span>
@@ -950,7 +742,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product7.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product8.png" alt="product-img"/>
                                              </Link>
@@ -959,7 +751,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -971,7 +763,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -979,8 +771,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Green-surface </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Green-surface </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$38.00</span>
                                                 <span  className="old__price">$40.00</span>
@@ -991,7 +783,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product2.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product1.png" alt="product-img"/>
                                              </Link>
@@ -1000,7 +792,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1012,7 +804,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1020,8 +812,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Red-tomato-isolated </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Red-tomato-isolated </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$52.00</span>
                                                 <span  className="old__price">$62.00</span>
@@ -1032,7 +824,7 @@ export default class Home extends Component {
                                 <div  className="col md-28">
                                     <div  className="product__items ">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product1.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product2.png" alt="product-img"/>
                                              </Link>
@@ -1041,7 +833,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1053,7 +845,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1061,8 +853,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Vegetable-healthy </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Vegetable-healthy </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$39.00</span>
                                                 <span  className="old__price">$59.00</span>
@@ -1073,7 +865,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items ">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product3.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product4.png" alt="product-img"/>
                                              </Link>
@@ -1082,7 +874,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1094,7 +886,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1102,8 +894,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Fresh-whole-fish </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Fresh-whole-fish </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$42.00</span>
                                                 <span  className="old__price">$48.00</span>
@@ -1114,7 +906,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product4.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product3.png" alt="product-img"/>
                                              </Link>
@@ -1123,7 +915,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1135,7 +927,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1143,8 +935,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Raw-onions-surface </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Raw-onions-surface </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$58.00</span>
                                                 <span  className="old__price">$68.00</span>
@@ -1155,7 +947,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product6.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product5.png" alt="product-img"/>
                                              </Link>
@@ -1164,7 +956,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1176,7 +968,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1184,8 +976,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Chili-pepper </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Chili-pepper </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$52.00</span>
                                                 <span  className="old__price">$62.00</span>
@@ -1196,7 +988,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product8.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product7.png" alt="product-img"/>
                                              </Link>
@@ -1205,7 +997,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1217,7 +1009,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1225,8 +1017,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Papaya-green </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Papaya-green </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$48.00</span>
                                                 <span  className="old__price">$54.00</span>
@@ -1243,7 +1035,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product5.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product6.png" alt="product-img"/>
                                              </Link>
@@ -1252,7 +1044,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1264,7 +1056,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1272,8 +1064,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Chili-pepper </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Chili-pepper </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$38.00</span>
                                                 <span  className="old__price">$44.00</span>
@@ -1284,7 +1076,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product7.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product8.png" alt="product-img"/>
                                              </Link>
@@ -1293,7 +1085,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1305,7 +1097,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1313,8 +1105,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Green-surface </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Green-surface </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$38.00</span>
                                                 <span  className="old__price">$40.00</span>
@@ -1325,7 +1117,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product2.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product1.png" alt="product-img"/>
                                              </Link>
@@ -1334,7 +1126,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1346,7 +1138,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1354,8 +1146,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Red-tomato-isolated </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Red-tomato-isolated </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$52.00</span>
                                                 <span  className="old__price">$62.00</span>
@@ -1366,7 +1158,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product4.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product3.png" alt="product-img"/>
                                              </Link>
@@ -1375,7 +1167,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1387,7 +1179,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1395,8 +1187,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Raw-onions-surface </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Raw-onions-surface </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$58.00</span>
                                                 <span  className="old__price">$68.00</span>
@@ -1407,7 +1199,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product6.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product5.png" alt="product-img"/>
                                              </Link>
@@ -1416,7 +1208,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1428,7 +1220,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1436,8 +1228,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Chili-pepper </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Chili-pepper </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$52.00</span>
                                                 <span  className="old__price">$62.00</span>
@@ -1448,7 +1240,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product8.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product7.png" alt="product-img"/>
                                              </Link>
@@ -1457,7 +1249,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1469,7 +1261,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1477,8 +1269,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Papaya-green </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Papaya-green </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$48.00</span>
                                                 <span  className="old__price">$54.00</span>
@@ -1489,7 +1281,7 @@ export default class Home extends Component {
                                 <div  className="col md-28">
                                     <div  className="product__items ">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product1.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product2.png" alt="product-img"/>
                                              </Link>
@@ -1498,7 +1290,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1510,7 +1302,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1518,8 +1310,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Vegetable-healthy </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Vegetable-healthy </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$39.00</span>
                                                 <span  className="old__price">$59.00</span>
@@ -1530,7 +1322,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items ">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product3.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product4.png" alt="product-img"/>
                                              </Link>
@@ -1539,7 +1331,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1551,7 +1343,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1559,8 +1351,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Fresh-whole-fish </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Fresh-whole-fish </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$42.00</span>
                                                 <span  className="old__price">$48.00</span>
@@ -1577,7 +1369,7 @@ export default class Home extends Component {
                                 <div  className="col md-28">
                                     <div  className="product__items ">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product1.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product2.png" alt="product-img"/>
                                              </Link>
@@ -1586,7 +1378,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1598,7 +1390,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1606,8 +1398,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Vegetable-healthy </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Vegetable-healthy </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$39.00</span>
                                                 <span  className="old__price">$59.00</span>
@@ -1618,7 +1410,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items ">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product3.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product4.png" alt="product-img"/>
                                              </Link>
@@ -1627,7 +1419,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1639,7 +1431,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1647,8 +1439,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Fresh-whole-fish </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Fresh-whole-fish </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$42.00</span>
                                                 <span  className="old__price">$48.00</span>
@@ -1659,7 +1451,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product5.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product6.png" alt="product-img"/>
                                              </Link>
@@ -1668,7 +1460,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1680,7 +1472,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1688,8 +1480,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Chili-pepper </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Chili-pepper </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$38.00</span>
                                                 <span  className="old__price">$44.00</span>
@@ -1700,7 +1492,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product7.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product8.png" alt="product-img"/>
                                              </Link>
@@ -1709,7 +1501,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1721,7 +1513,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1729,8 +1521,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Green-surface </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Green-surface </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$38.00</span>
                                                 <span  className="old__price">$40.00</span>
@@ -1741,7 +1533,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product2.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product1.png" alt="product-img"/>
                                              </Link>
@@ -1750,7 +1542,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1762,7 +1554,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1770,8 +1562,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Red-tomato-isolated </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Red-tomato-isolated </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$52.00</span>
                                                 <span  className="old__price">$62.00</span>
@@ -1782,7 +1574,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product4.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product3.png" alt="product-img"/>
                                              </Link>
@@ -1791,7 +1583,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1803,7 +1595,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1811,8 +1603,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Raw-onions-surface </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Raw-onions-surface </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$58.00</span>
                                                 <span  className="old__price">$68.00</span>
@@ -1823,7 +1615,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product6.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product5.png" alt="product-img"/>
                                              </Link>
@@ -1832,7 +1624,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1844,7 +1636,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1852,8 +1644,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Chili-pepper </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Chili-pepper </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$52.00</span>
                                                 <span  className="old__price">$62.00</span>
@@ -1864,7 +1656,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product8.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product7.png" alt="product-img"/>
                                              </Link>
@@ -1873,7 +1665,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1885,7 +1677,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1893,8 +1685,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Papaya-green </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Papaya-green </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$48.00</span>
                                                 <span  className="old__price">$54.00</span>
@@ -1911,7 +1703,7 @@ export default class Home extends Component {
                                 <div  className="col md-28">
                                     <div  className="product__items ">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product1.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product2.png" alt="product-img"/>
                                              </Link>
@@ -1920,7 +1712,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1932,7 +1724,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1940,8 +1732,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Vegetable-healthy </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Vegetable-healthy </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$39.00</span>
                                                 <span  className="old__price">$59.00</span>
@@ -1952,7 +1744,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product6.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product5.png" alt="product-img"/>
                                              </Link>
@@ -1961,7 +1753,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -1973,7 +1765,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -1981,8 +1773,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Chili-pepper </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Chili-pepper </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$52.00</span>
                                                 <span  className="old__price">$62.00</span>
@@ -1993,7 +1785,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product8.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product7.png" alt="product-img"/>
                                              </Link>
@@ -2002,7 +1794,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -2014,7 +1806,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -2022,8 +1814,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Papaya-green </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Papaya-green </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$48.00</span>
                                                 <span  className="old__price">$54.00</span>
@@ -2034,7 +1826,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items ">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product3.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product4.png" alt="product-img"/>
                                              </Link>
@@ -2043,7 +1835,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -2055,7 +1847,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -2063,8 +1855,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Fresh-whole-fish </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Fresh-whole-fish </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$42.00</span>
                                                 <span  className="old__price">$48.00</span>
@@ -2075,7 +1867,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product5.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product6.png" alt="product-img"/>
                                              </Link>
@@ -2084,7 +1876,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -2096,7 +1888,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -2104,8 +1896,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Chili-pepper </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Chili-pepper </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$38.00</span>
                                                 <span  className="old__price">$44.00</span>
@@ -2116,7 +1908,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product7.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product8.png" alt="product-img"/>
                                              </Link>
@@ -2125,7 +1917,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -2137,7 +1929,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -2145,8 +1937,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Green-surface </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Green-surface </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$38.00</span>
                                                 <span  className="old__price">$40.00</span>
@@ -2157,7 +1949,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product2.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product1.png" alt="product-img"/>
                                              </Link>
@@ -2166,7 +1958,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -2178,7 +1970,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -2186,8 +1978,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Red-tomato-isolated </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Red-tomato-isolated </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$52.00</span>
                                                 <span  className="old__price">$62.00</span>
@@ -2198,7 +1990,7 @@ export default class Home extends Component {
                                 <div  className="col mb-28">
                                     <div  className="product__items">
                                         <div  className="product__items--thumbnail">
-                                             <Link  className="product__items--link"  to="product-details.html">
+                                             <Link  className="product__items--link"  to="product-details">
                                                 <img  className="product__items--img product__primary--img" src="assets/img/product/product4.png" alt="product-img"/>
                                                 <img  className="product__items--img product__secondary--img" src="assets/img/product/product3.png" alt="product-img"/>
                                              </Link>
@@ -2207,7 +1999,7 @@ export default class Home extends Component {
                                             </div>
                                             <ul  className="product__items--action">
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="wishlist.html">
+                                                     <Link  className="product__items--action__btn"  to="wishlist">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Wishlist</span> 
                                                      </Link>
@@ -2219,7 +2011,7 @@ export default class Home extends Component {
                                                      </Link>
                                                 </li>
                                                 <li  className="product__items--action__list">
-                                                     <Link  className="product__items--action__btn"  to="compare.html">
+                                                     <Link  className="product__items--action__btn"  to="compare">
                                                         <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
                                                         <span  className="visually-hidden">Compare</span>    
                                                      </Link>
@@ -2227,8 +2019,8 @@ export default class Home extends Component {
                                             </ul>
                                         </div>
                                         <div  className="product__items--content text-center">
-                                             <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                            <h3  className="product__items--content__title h4"> <Link  to="product-details.html">Raw-onions-surface </Link></h3>
+                                             <Link  className="add__to--cart__btn"  to="cart">+ Add to cart </Link>
+                                            <h3  className="product__items--content__title h4"> <Link  to="product-details">Raw-onions-surface </Link></h3>
                                             <div  className="product__items--price">
                                                 <span  className="current__price">$58.00</span>
                                                 <span  className="old__price">$68.00</span>
@@ -2242,6 +2034,29 @@ export default class Home extends Component {
                 </div>
             </div>
         </section>
+
+        {/* <!-- Start deals banner section --> */}
+        <section  className="deals__banner--section banner__bg">
+            <div  className="container">
+                <div  className="row align-items-center">
+                    <div  className="col-lg-5 col-md-5 deals__baner--col">
+                        <div  className="deals__banner--content">
+                            <h3  className="deals__banner--content__subtitle text__secondary">Best Deals of the week!</h3>
+                            <h2  className="deals__banner--content__maintitle">Grab The Best Offer 
+                                of This Week</h2>
+                            <p  className="deals__banner--content__desc">Shop our selection of organic fresh vegetables in a discounted price. 10% off on all vegetables.</p>
+                            <div  className="deals__banner--countdown d-flex" data-countdown="Sep 30, 2022 00:00:00"></div>
+                             <Link  className="btn deals__banner--content__btn"  to="shop">Discover Now </Link>
+                        </div>
+                    </div>
+                    <div  className="col-lg-7 col-md-7 deals__baner--col">
+                        <div  className="banner__items text-right">
+                             <Link  className="banner__items--thumbnail display-block"  to="shop"><img  className="banner__items--thumbnail__img display-block" src="assets/img/banner/photo1.jpg" alt="banner-layer-img"/> </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         
 
         {/* <!-- Start banner section --> */}
@@ -2250,7 +2065,7 @@ export default class Home extends Component {
                 <div  className="row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-1 mb--n30">
                     <div  className="col mb-30">
                         <div  className="banner__items position__relative">
-                             <Link  className="banner__items--thumbnail display-block"  to="shop.html"><img  className="banner__items--thumbnail__img display-block" src="assets/img/banner/banner1.png" alt="banner-img"/>
+                             <Link  className="banner__items--thumbnail display-block"  to="shop"><img  className="banner__items--thumbnail__img display-block" src="assets/img/banner/banner1.png" alt="banner-img"/>
                                 <div  className="banner__items--content">
                                     <h2  className="banner__items--content__title text__secondary">Organic Juice</h2>
                                     <p  className="banner__items--content__desc text-white">Shop our selection of organic fresh vegetables in a discounted price 10% off.</p>
@@ -2261,7 +2076,7 @@ export default class Home extends Component {
                     </div>
                     <div  className="col mb-30">
                         <div  className="banner__items position__relative">
-                             <Link  className="banner__items--thumbnail display-block"  to="shop.html"><img  className="banner__items--thumbnail__img display-block" src="assets/img/banner/banner2.png" alt="banner-img"/> 
+                             <Link  className="banner__items--thumbnail display-block"  to="shop"><img  className="banner__items--thumbnail__img display-block" src="assets/img/banner/banner2.png" alt="banner-img"/> 
                                 <div  className="banner__items--content">
                                     <h2  className="banner__items--content__title text__secondary">Organic Food</h2>
                                     <p  className="banner__items--content__desc text-black">Shop our selection of organic fresh vegetables in a discounted price 10% off.</p>
@@ -2276,269 +2091,10 @@ export default class Home extends Component {
        
 
         {/* <!-- Start deal product section --> */}
-        <section  className="product__section section--padding pt-0">
-            <div  className="container">
-                <div  className="section__heading text-center mb-40">
-                    <span  className="section__heading--subtitle">Recently added our store</span>
-                    <h2  className="section__heading--maintitle">Top Rated Product</h2>
-                </div>
-                <div  className="product__section--inner product__swiper--activation swiper">
-                    <div  className="swiper-wrapper">
-                        <div  className="swiper-slide">
-                            <div  className="product__items">
-                                <div  className="product__items--thumbnail">
-                                     <Link  className="product__items--link"  to="product-details.html">
-                                        <img  className="product__items--img product__primary--img" src="assets/img/product/product5.png" alt="product-img"/>
-                                        <img  className="product__items--img product__secondary--img" src="assets/img/product/product6.png" alt="product-img"/>
-                                     </Link>
-                                    <div  className="product__badge">
-                                        <span  className="product__badge--items sale">Sale</span>
-                                    </div>
-                                    <ul  className="product__items--action">
-                                        <li  className="product__items--action__list">
-                                             <Link  className="product__items--action__btn"  to="wishlist.html">
-                                                <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
-                                                <span  className="visually-hidden">Wishlist</span> 
-                                             </Link>
-                                        </li>
-                                        <li  className="product__items--action__list">
-                                             <Link  className="product__items--action__btn" data-open="modal1"  to="javascript:void(0)">
-                                                <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" strokeMiterlimit="10" strokeWidth="32"/><path fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit="10" strokeWidth="32" d="M338.29 338.29L448 448"/></svg>
-                                                <span  className="visually-hidden">Quick View</span>   
-                                             </Link>
-                                        </li>
-                                        <li  className="product__items--action__list">
-                                             <Link  className="product__items--action__btn"  to="compare.html">
-                                                <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
-                                                <span  className="visually-hidden">Compare</span>    
-                                             </Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div  className="product__items--content text-center">
-                                     <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                    <h3  className="product__items--content__title style2 h4"> <Link  to="product-details.html">Raw-onions-surface </Link></h3>
-                                    <div  className="product__items--price">
-                                        <span  className="current__price">$58.00</span>
-                                        <span  className="old__price">$68.00</span>
-                                    </div>
-                                    <div  className="product__items--sold__stocks d-flex justify-content-between">
-                                        <span  className="product__items--sold__stocks--text">Total Sold : 1</span>
-                                        <span  className="product__items--sold__stocks--text">Stocks : 35</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div  className="swiper-slide">
-                            <div  className="product__items">
-                                <div  className="product__items--thumbnail">
-                                     <Link  className="product__items--link"  to="product-details.html">
-                                        <img  className="product__items--img product__primary--img" src="assets/img/product/product7.png" alt="product-img"/>
-                                        <img  className="product__items--img product__secondary--img" src="assets/img/product/product8.png" alt="product-img"/>
-                                     </Link>
-                                    <div  className="product__badge">
-                                        <span  className="product__badge--items sale">Sale</span>
-                                    </div>
-                                    <ul  className="product__items--action">
-                                        <li  className="product__items--action__list">
-                                             <Link  className="product__items--action__btn"  to="wishlist.html">
-                                                <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
-                                                <span  className="visually-hidden">Wishlist</span> 
-                                             </Link>
-                                        </li>
-                                        <li  className="product__items--action__list">
-                                             <Link  className="product__items--action__btn" data-open="modal1"  to="javascript:void(0)">
-                                                <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" strokeMiterlimit="10" strokeWidth="32"/><path fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit="10" strokeWidth="32" d="M338.29 338.29L448 448"/></svg>
-                                                <span  className="visually-hidden">Quick View</span>   
-                                             </Link>
-                                        </li>
-                                        <li  className="product__items--action__list">
-                                             <Link  className="product__items--action__btn"  to="compare.html">
-                                                <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
-                                                <span  className="visually-hidden">Compare</span>    
-                                             </Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div  className="product__items--content text-center">
-                                     <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                    <h3  className="product__items--content__title style2 h4"> <Link  to="product-details.html">Papaya-green </Link></h3>
-                                    <div  className="product__items--price">
-                                        <span  className="current__price">$48.00</span>
-                                        <span  className="old__price">$54.00</span>
-                                    </div>
-                                    <div  className="product__items--sold__stocks d-flex justify-content-between">
-                                        <span  className="product__items--sold__stocks--text">Total Sold : 1</span>
-                                        <span  className="product__items--sold__stocks--text">Stocks : 35</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div  className="swiper-slide">
-                            <div  className="product__items ">
-                                <div  className="product__items--thumbnail">
-                                     <Link  className="product__items--link"  to="product-details.html">
-                                        <img  className="product__items--img product__primary--img" src="assets/img/product/product1.png" alt="product-img"/>
-                                        <img  className="product__items--img product__secondary--img" src="assets/img/product/product2.png" alt="product-img"/>
-                                     </Link>
-                                    <div  className="product__badge">
-                                        <span  className="product__badge--items sale">Sale</span>
-                                    </div>
-                                    <ul  className="product__items--action">
-                                        <li  className="product__items--action__list">
-                                             <Link  className="product__items--action__btn"  to="wishlist.html">
-                                                <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
-                                                <span  className="visually-hidden">Wishlist</span> 
-                                             </Link>
-                                        </li>
-                                        <li  className="product__items--action__list">
-                                             <Link  className="product__items--action__btn" data-open="modal1"  to="javascript:void(0)">
-                                                <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" strokeMiterlimit="10" strokeWidth="32"/><path fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit="10" strokeWidth="32" d="M338.29 338.29L448 448"/></svg>
-                                                <span  className="visually-hidden">Quick View</span>   
-                                             </Link>
-                                        </li>
-                                        <li  className="product__items--action__list">
-                                             <Link  className="product__items--action__btn"  to="compare.html">
-                                                <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
-                                                <span  className="visually-hidden">Compare</span>    
-                                             </Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div  className="product__items--content text-center">
-                                     <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                    <h3  className="product__items--content__title style2 h4"> <Link  to="product-details.html">Vegetable-healthy </Link></h3>
-                                    <div  className="product__items--price">
-                                        <span  className="current__price">$39.00</span>
-                                        <span  className="old__price">$59.00</span>
-                                    </div>
-                                    <div  className="product__items--sold__stocks d-flex justify-content-between">
-                                        <span  className="product__items--sold__stocks--text">Total Sold : 1</span>
-                                        <span  className="product__items--sold__stocks--text">Stocks : 35</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div  className="swiper-slide">
-                            <div  className="product__items">
-                                <div  className="product__items--thumbnail">
-                                     <Link  className="product__items--link"  to="product-details.html">
-                                        <img  className="product__items--img product__primary--img" src="assets/img/product/product4.png" alt="product-img"/>
-                                        <img  className="product__items--img product__secondary--img" src="assets/img/product/product3.png" alt="product-img"/>
-                                     </Link>
-                                    <div  className="product__badge">
-                                        <span  className="product__badge--items sale">Sale</span>
-                                    </div>
-                                    <ul  className="product__items--action">
-                                        <li  className="product__items--action__list">
-                                             <Link  className="product__items--action__btn"  to="wishlist.html">
-                                                <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
-                                                <span  className="visually-hidden">Wishlist</span> 
-                                             </Link>
-                                        </li>
-                                        <li  className="product__items--action__list">
-                                             <Link  className="product__items--action__btn" data-open="modal1"  to="javascript:void(0)">
-                                                <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" strokeMiterlimit="10" strokeWidth="32"/><path fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit="10" strokeWidth="32" d="M338.29 338.29L448 448"/></svg>
-                                                <span  className="visually-hidden">Quick View</span>   
-                                             </Link>
-                                        </li>
-                                        <li  className="product__items--action__list">
-                                             <Link  className="product__items--action__btn"  to="compare.html">
-                                                <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
-                                                <span  className="visually-hidden">Compare</span>    
-                                             </Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div  className="product__items--content text-center">
-                                     <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                    <h3  className="product__items--content__title style2 h4"> <Link  to="product-details.html">Fresh-whole-fish </Link></h3>
-                                    <div  className="product__items--price">
-                                        <span  className="current__price">$38.00</span>
-                                        <span  className="old__price">$44.00</span>
-                                    </div>
-                                    <div  className="product__items--sold__stocks d-flex justify-content-between">
-                                        <span  className="product__items--sold__stocks--text">Total Sold : 1</span>
-                                        <span  className="product__items--sold__stocks--text">Stocks : 35</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div  className="swiper-slide">
-                            <div  className="product__items">
-                                <div  className="product__items--thumbnail">
-                                     <Link  className="product__items--link"  to="product-details.html">
-                                        <img  className="product__items--img product__primary--img" src="assets/img/product/product6.png" alt="product-img"/>
-                                        <img  className="product__items--img product__secondary--img" src="assets/img/product/product5.png" alt="product-img"/>
-                                     </Link>
-                                    <div  className="product__badge">
-                                        <span  className="product__badge--items sale">Sale</span>
-                                    </div>
-                                    <ul  className="product__items--action">
-                                        <li  className="product__items--action__list">
-                                             <Link  className="product__items--action__btn"  to="wishlist.html">
-                                                <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
-                                                <span  className="visually-hidden">Wishlist</span> 
-                                             </Link>
-                                        </li>
-                                        <li  className="product__items--action__list">
-                                             <Link  className="product__items--action__btn" data-open="modal1"  to="javascript:void(0)">
-                                                <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" strokeMiterlimit="10" strokeWidth="32"/><path fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit="10" strokeWidth="32" d="M338.29 338.29L448 448"/></svg>
-                                                <span  className="visually-hidden">Quick View</span>   
-                                             </Link>
-                                        </li>
-                                        <li  className="product__items--action__list">
-                                             <Link  className="product__items--action__btn"  to="compare.html">
-                                                <svg  className="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M400 304l48 48-48 48M400 112l48 48-48 48M64 352h85.19a80 80 0 0066.56-35.62L256 256"/><path d="M64 160h85.19a80 80 0 0166.56 35.62l80.5 120.76A80 80 0 00362.81 352H416M416 160h-53.19a80 80 0 00-66.56 35.62L288 208" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32"/></svg>
-                                                <span  className="visually-hidden">Compare</span>    
-                                             </Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div  className="product__items--content text-center">
-                                     <Link  className="add__to--cart__btn"  to="cart.html">+ Add to cart </Link>
-                                    <h3  className="product__items--content__title style2 h4"> <Link  to="product-details.html">Green-surface </Link></h3>
-                                    <div  className="product__items--price">
-                                        <span  className="current__price">$38.00</span>
-                                        <span  className="old__price">$40.00</span>
-                                    </div>
-                                    <div  className="product__items--sold__stocks d-flex justify-content-between">
-                                        <span  className="product__items--sold__stocks--text">Total Sold : 1</span>
-                                        <span  className="product__items--sold__stocks--text">Stocks : 35</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div  className="swiper__nav--btn swiper-button-next"></div>
-                    <div  className="swiper__nav--btn swiper-button-prev"></div>
-                </div>
-            </div>
-        </section>
+        
      
 
-        {/* <!-- Start deals banner section --> */}
-        <section  className="deals__banner--section banner__bg">
-            <div  className="container">
-                <div  className="row align-items-center">
-                    <div  className="col-lg-5 col-md-5 deals__baner--col">
-                        <div  className="deals__banner--content">
-                            <h3  className="deals__banner--content__subtitle text__secondary">Best Deals of the week!</h3>
-                            <h2  className="deals__banner--content__maintitle">Grab The Best Offer 
-                                of This Week</h2>
-                            <p  className="deals__banner--content__desc">Shop our selection of organic fresh vegetables in a discounted price. 10% off on all vegetables.</p>
-                            <div  className="deals__banner--countdown d-flex" data-countdown="Sep 30, 2022 00:00:00"></div>
-                             <Link  className="btn deals__banner--content__btn"  to="shop.html">Discover Now </Link>
-                        </div>
-                    </div>
-                    <div  className="col-lg-7 col-md-7 deals__baner--col">
-                        <div  className="banner__items text-right">
-                             <Link  className="banner__items--thumbnail display-block"  to="shop.html"><img  className="banner__items--thumbnail__img display-block" src="assets/img/banner/banner-layer.png" alt="banner-layer-img"/> </Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
      
         
         {/* <!-- Start blog section --> */}
@@ -2553,7 +2109,7 @@ export default class Home extends Component {
                         <div  className="swiper-slide">
                             <div  className="blog__items">
                                 <div  className="blog__items--thumbnail">
-                                     <Link  className="blog__items--link"  to="blog-details.html"><img  className="blog__items--img" src="assets/img/blog/blog1.png" alt="blog-img"/> </Link>
+                                     <Link  className="blog__items--link"  to="blog-details"><img  className="blog__items--img" src="assets/img/blog/blog1.png" alt="blog-img"/> </Link>
                                 </div>
                                 <div  className="blog__items--content">
                                     <div  className="blog__items--meta">
@@ -2572,9 +2128,9 @@ export default class Home extends Component {
                                             </li>
                                         </ul>
                                     </div>
-                                    <h3  className="blog__items--title"> <Link  to="blog-details.html">Aypi Non Habent Claritatemnon Insitam </Link></h3>
+                                    <h3  className="blog__items--title"> <Link  to="blog-details">Aypi Non Habent Claritatemnon Insitam </Link></h3>
                                     <p  className="blog__items--desc">It is a long established fact that a reader will be  by the readable content of a page when looking at.  </p>
-                                     <Link  className="blog__items--readmore"  to="blog-details.html">Read more <svg  className="blog__items--readmore__icon" xmlns="http://www.w3.org/2000/svg" width="6.2" height="6.2" viewBox="0 0 6.2 6.2">
+                                     <Link  className="blog__items--readmore"  to="blog-details">Read more <svg  className="blog__items--readmore__icon" xmlns="http://www.w3.org/2000/svg" width="6.2" height="6.2" viewBox="0 0 6.2 6.2">
                                         <path  d="M7.1,4l-.546.546L8.716,6.713H4v.775H8.716L6.554,9.654,7.1,10.2,9.233,8.067,10.2,7.1Z" transform="translate(-4 -4)" fill="currentColor"/>
                                         </svg>
                                      </Link>
@@ -2584,7 +2140,7 @@ export default class Home extends Component {
                         <div  className="swiper-slide">
                             <div  className="blog__items">
                                 <div  className="blog__items--thumbnail">
-                                     <Link  className="blog__items--link"  to="blog-details.html"><img  className="blog__items--img" src="assets/img/blog/blog2.png" alt="blog-img"/> </Link>
+                                     <Link  className="blog__items--link"  to="blog-details"><img  className="blog__items--img" src="assets/img/blog/blog2.png" alt="blog-img"/> </Link>
                                 </div>
                                 <div  className="blog__items--content">
                                     <div  className="blog__items--meta">
@@ -2603,9 +2159,9 @@ export default class Home extends Component {
                                             </li>
                                         </ul>
                                     </div>
-                                    <h3  className="blog__items--title"> <Link  to="blog-details.html">Lorem ipsum dolor sit amet are consecte. </Link></h3>
+                                    <h3  className="blog__items--title"> <Link  to="blog-details">Lorem ipsum dolor sit amet are consecte. </Link></h3>
                                     <p  className="blog__items--desc">It is a long established fact that a reader will be  by the readable content of a page when looking at.  </p>
-                                     <Link  className="blog__items--readmore"  to="blog-details.html">Read more <svg  className="blog__items--readmore__icon" xmlns="http://www.w3.org/2000/svg" width="6.2" height="6.2" viewBox="0 0 6.2 6.2">
+                                     <Link  className="blog__items--readmore"  to="blog-details">Read more <svg  className="blog__items--readmore__icon" xmlns="http://www.w3.org/2000/svg" width="6.2" height="6.2" viewBox="0 0 6.2 6.2">
                                         <path  d="M7.1,4l-.546.546L8.716,6.713H4v.775H8.716L6.554,9.654,7.1,10.2,9.233,8.067,10.2,7.1Z" transform="translate(-4 -4)" fill="currentColor"/>
                                         </svg>
                                      </Link>
@@ -2615,7 +2171,7 @@ export default class Home extends Component {
                         <div  className="swiper-slide">
                             <div  className="blog__items">
                                 <div  className="blog__items--thumbnail">
-                                     <Link  className="blog__items--link"  to="blog-details.html"><img  className="blog__items--img" src="assets/img/blog/blog3.png" alt="blog-img"/> </Link>
+                                     <Link  className="blog__items--link"  to="blog-details"><img  className="blog__items--img" src="assets/img/blog/blog3.png" alt="blog-img"/> </Link>
                                 </div>
                                 <div  className="blog__items--content">
                                     <div  className="blog__items--meta">
@@ -2634,9 +2190,9 @@ export default class Home extends Component {
                                             </li>
                                         </ul>
                                     </div>
-                                    <h3  className="blog__items--title"> <Link  to="blog-details.html">Ratione nobis the are delectus in impedit? </Link></h3>
+                                    <h3  className="blog__items--title"> <Link  to="blog-details">Ratione nobis the are delectus in impedit? </Link></h3>
                                     <p  className="blog__items--desc">It is a long established fact that a reader will be  by the readable content of a page when looking at.  </p>
-                                     <Link  className="blog__items--readmore"  to="blog-details.html">Read more <svg  className="blog__items--readmore__icon" xmlns="http://www.w3.org/2000/svg" width="6.2" height="6.2" viewBox="0 0 6.2 6.2">
+                                     <Link  className="blog__items--readmore"  to="blog-details">Read more <svg  className="blog__items--readmore__icon" xmlns="http://www.w3.org/2000/svg" width="6.2" height="6.2" viewBox="0 0 6.2 6.2">
                                         <path  d="M7.1,4l-.546.546L8.716,6.713H4v.775H8.716L6.554,9.654,7.1,10.2,9.233,8.067,10.2,7.1Z" transform="translate(-4 -4)" fill="currentColor"/>
                                         </svg>
                                      </Link>
@@ -2646,7 +2202,7 @@ export default class Home extends Component {
                         <div  className="swiper-slide">
                             <div  className="blog__items">
                                 <div  className="blog__items--thumbnail">
-                                     <Link  className="blog__items--link"  to="blog-details.html"><img  className="blog__items--img" src="assets/img/blog/blog1.png" alt="blog-img"/> </Link>
+                                     <Link  className="blog__items--link"  to="blog-details"><img  className="blog__items--img" src="assets/img/blog/blog1.png" alt="blog-img"/> </Link>
                                 </div>
                                 <div  className="blog__items--content">
                                     <div  className="blog__items--meta">
@@ -2665,9 +2221,9 @@ export default class Home extends Component {
                                             </li>
                                         </ul>
                                     </div>
-                                    <h3  className="blog__items--title"> <Link  to="blog-details.html">Aypi Non Habent Claritatemnon Insitam </Link></h3>
+                                    <h3  className="blog__items--title"> <Link  to="blog-details">Aypi Non Habent Claritatemnon Insitam </Link></h3>
                                     <p  className="blog__items--desc">It is a long established fact that a reader will be  by the readable content of a page when looking at.  </p>
-                                     <Link  className="blog__items--readmore"  to="blog-details.html">Read more <svg  className="blog__items--readmore__icon" xmlns="http://www.w3.org/2000/svg" width="6.2" height="6.2" viewBox="0 0 6.2 6.2">
+                                     <Link  className="blog__items--readmore"  to="blog-details">Read more <svg  className="blog__items--readmore__icon" xmlns="http://www.w3.org/2000/svg" width="6.2" height="6.2" viewBox="0 0 6.2 6.2">
                                         <path  d="M7.1,4l-.546.546L8.716,6.713H4v.775H8.716L6.554,9.654,7.1,10.2,9.233,8.067,10.2,7.1Z" transform="translate(-4 -4)" fill="currentColor"/>
                                         </svg>
                                      </Link>
@@ -2682,354 +2238,8 @@ export default class Home extends Component {
         </section>
         
 
-        {/* <!-- Start testimonial section --> */}
-        <section  className="testimonial__section testimonial__bg section--padding">
-            <div  className="container-fluid p-0">
-                <div  className="section__heading text-center mb-55">
-                    <span  className="section__heading--subtitle">Recently added our store</span>
-                    <h2  className="section__heading--maintitle">Our Testimonial</h2>
-                </div>
-                <div  className="testimonial__section--inner testimonial__swiper--activation swiper">
-                    <div  className="swiper-wrapper">
-                        <div  className="swiper-slide">
-                            <div  className="testimonial__items d-flex align-items-center">
-                                <div  className="testimonial__items--thumbnail">
-                                    <img  className="testimonial__items--thumbnail__img" src="assets/img/other/testimonial-thumb1.png" alt="testimonial-img"/>
-                                </div>
-                                <div  className="testimonial__items--content">
-                                    <h3  className="testimonial__items--title">JACKLY SMITH</h3>
-                                    <span  className="testimonial__items--subtitle">Senior Maneger</span>
-                                    <p  className="testimonial__items--desc">Lorem ipsum dolor sit, amet consectetur is adipisicing elit. Recusandae iusto veritatis eveniet, amet sint are suscipit!</p>
-                                    <div  className="ratting testimonial__ratting">
-                                        <ul  className="d-flex testimonial__ratting--inner">
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div  className="testimonial__chat--icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="52.472" height="45.687" viewBox="0 0 52.472 45.687">
-                                        <path  data-name="Chat icon" d="M105.2,149.979a16.71,16.71,0,0,0,3.8-15.4,18.87,18.87,0,0,0-8.881-11.694,25.79,25.79,0,0,0-17.343-3.676,23.55,23.55,0,0,0-15.238,7.706,16.673,16.673,0,0,0-4.108,15.7,40.137,40.137,0,0,1,1.547,7.124,15.559,15.559,0,0,1-1.727,8.677c-.228.414-.486.81-.744,1.229.1.036.15.066.192.06a26.1,26.1,0,0,0,11.034-3.862.865.865,0,0,1,.983-.132A26.582,26.582,0,0,0,91,157.853a23.243,23.243,0,0,0,14.194-7.874Zm9.5,13.924a8.286,8.286,0,0,1-.911-1.3,11.272,11.272,0,0,1-.354-9.049,12.317,12.317,0,0,0-.486-9.4c-.4-.846-.935-1.625-1.493-2.591-.108.408-.162.582-.2.762a18.517,18.517,0,0,1-2.968,7.076c-4.234,6.141-10.236,9.427-17.468,10.65-1.283.216-2.591.288-3.916.432a.579.579,0,0,0,.126.168c.33.216.648.438,1,.624a19.172,19.172,0,0,0,17.037.846,1.037,1.037,0,0,1,.8,0,18.573,18.573,0,0,0,6.033,2.291,11.879,11.879,0,0,0,2.519.246C115.079,164.647,115.115,164.419,114.7,163.9Z" transform="translate(-62.5 -118.975)" fill="currentColor" opacity="0.11"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div  className="swiper-slide">
-                            <div  className="testimonial__items d-flex align-items-center">
-                                <div  className="testimonial__items--thumbnail">
-                                    <img  className="testimonial__items--thumbnail__img" src="assets/img/other/testimonial-thumb2.png" alt="testimonial-img"/>
-                                </div>
-                                <div  className="testimonial__items--content">
-                                    <h3  className="testimonial__items--title">Laura Johnson</h3>
-                                    <span  className="testimonial__items--subtitle">Products Manager</span>
-                                    <p  className="testimonial__items--desc">Lorem ipsum dolor sit, amet consectetur is adipisicing elit. Recusandae iusto veritatis eveniet, amet sint are suscipit!</p>
-                                    <div  className="ratting testimonial__ratting">
-                                        <ul  className="d-flex testimonial__ratting--inner">
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div  className="testimonial__chat--icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="52.472" height="45.687" viewBox="0 0 52.472 45.687">
-                                        <path  data-name="Chat icon" d="M105.2,149.979a16.71,16.71,0,0,0,3.8-15.4,18.87,18.87,0,0,0-8.881-11.694,25.79,25.79,0,0,0-17.343-3.676,23.55,23.55,0,0,0-15.238,7.706,16.673,16.673,0,0,0-4.108,15.7,40.137,40.137,0,0,1,1.547,7.124,15.559,15.559,0,0,1-1.727,8.677c-.228.414-.486.81-.744,1.229.1.036.15.066.192.06a26.1,26.1,0,0,0,11.034-3.862.865.865,0,0,1,.983-.132A26.582,26.582,0,0,0,91,157.853a23.243,23.243,0,0,0,14.194-7.874Zm9.5,13.924a8.286,8.286,0,0,1-.911-1.3,11.272,11.272,0,0,1-.354-9.049,12.317,12.317,0,0,0-.486-9.4c-.4-.846-.935-1.625-1.493-2.591-.108.408-.162.582-.2.762a18.517,18.517,0,0,1-2.968,7.076c-4.234,6.141-10.236,9.427-17.468,10.65-1.283.216-2.591.288-3.916.432a.579.579,0,0,0,.126.168c.33.216.648.438,1,.624a19.172,19.172,0,0,0,17.037.846,1.037,1.037,0,0,1,.8,0,18.573,18.573,0,0,0,6.033,2.291,11.879,11.879,0,0,0,2.519.246C115.079,164.647,115.115,164.419,114.7,163.9Z" transform="translate(-62.5 -118.975)" fill="currentColor" opacity="0.11"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div  className="swiper-slide">
-                            <div  className="testimonial__items d-flex align-items-center">
-                                <div  className="testimonial__items--thumbnail">
-                                    <img  className="testimonial__items--thumbnail__img" src="assets/img/other/testimonial-thumb3.png" alt="testimonial-img"/>
-                                </div>
-                                <div  className="testimonial__items--content">
-                                    <h3  className="testimonial__items--title">Richard Smith</h3>
-                                    <span  className="testimonial__items--subtitle">CEO - Founder</span>
-                                    <p  className="testimonial__items--desc">Lorem ipsum dolor sit, amet consectetur is adipisicing elit. Recusandae iusto veritatis eveniet, amet sint are suscipit!</p>
-                                    <div  className="ratting testimonial__ratting">
-                                        <ul  className="d-flex testimonial__ratting--inner">
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div  className="testimonial__chat--icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="52.472" height="45.687" viewBox="0 0 52.472 45.687">
-                                        <path  data-name="Chat icon" d="M105.2,149.979a16.71,16.71,0,0,0,3.8-15.4,18.87,18.87,0,0,0-8.881-11.694,25.79,25.79,0,0,0-17.343-3.676,23.55,23.55,0,0,0-15.238,7.706,16.673,16.673,0,0,0-4.108,15.7,40.137,40.137,0,0,1,1.547,7.124,15.559,15.559,0,0,1-1.727,8.677c-.228.414-.486.81-.744,1.229.1.036.15.066.192.06a26.1,26.1,0,0,0,11.034-3.862.865.865,0,0,1,.983-.132A26.582,26.582,0,0,0,91,157.853a23.243,23.243,0,0,0,14.194-7.874Zm9.5,13.924a8.286,8.286,0,0,1-.911-1.3,11.272,11.272,0,0,1-.354-9.049,12.317,12.317,0,0,0-.486-9.4c-.4-.846-.935-1.625-1.493-2.591-.108.408-.162.582-.2.762a18.517,18.517,0,0,1-2.968,7.076c-4.234,6.141-10.236,9.427-17.468,10.65-1.283.216-2.591.288-3.916.432a.579.579,0,0,0,.126.168c.33.216.648.438,1,.624a19.172,19.172,0,0,0,17.037.846,1.037,1.037,0,0,1,.8,0,18.573,18.573,0,0,0,6.033,2.291,11.879,11.879,0,0,0,2.519.246C115.079,164.647,115.115,164.419,114.7,163.9Z" transform="translate(-62.5 -118.975)" fill="currentColor" opacity="0.11"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div  className="swiper-slide">
-                            <div  className="testimonial__items d-flex align-items-center">
-                                <div  className="testimonial__items--thumbnail">
-                                    <img  className="testimonial__items--thumbnail__img" src="assets/img/other/testimonial-thumb1.png" alt="testimonial-img"/>
-                                </div>
-                                <div  className="testimonial__items--content">
-                                    <h3  className="testimonial__items--title">JACKLY SMITH</h3>
-                                    <span  className="testimonial__items--subtitle">Senior Maneger</span>
-                                    <p  className="testimonial__items--desc">Lorem ipsum dolor sit, amet consectetur is adipisicing elit. Recusandae iusto veritatis eveniet, amet sint are suscipit!</p>
-                                    <div  className="ratting testimonial__ratting">
-                                        <ul  className="d-flex testimonial__ratting--inner">
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div  className="testimonial__chat--icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="52.472" height="45.687" viewBox="0 0 52.472 45.687">
-                                        <path  data-name="Chat icon" d="M105.2,149.979a16.71,16.71,0,0,0,3.8-15.4,18.87,18.87,0,0,0-8.881-11.694,25.79,25.79,0,0,0-17.343-3.676,23.55,23.55,0,0,0-15.238,7.706,16.673,16.673,0,0,0-4.108,15.7,40.137,40.137,0,0,1,1.547,7.124,15.559,15.559,0,0,1-1.727,8.677c-.228.414-.486.81-.744,1.229.1.036.15.066.192.06a26.1,26.1,0,0,0,11.034-3.862.865.865,0,0,1,.983-.132A26.582,26.582,0,0,0,91,157.853a23.243,23.243,0,0,0,14.194-7.874Zm9.5,13.924a8.286,8.286,0,0,1-.911-1.3,11.272,11.272,0,0,1-.354-9.049,12.317,12.317,0,0,0-.486-9.4c-.4-.846-.935-1.625-1.493-2.591-.108.408-.162.582-.2.762a18.517,18.517,0,0,1-2.968,7.076c-4.234,6.141-10.236,9.427-17.468,10.65-1.283.216-2.591.288-3.916.432a.579.579,0,0,0,.126.168c.33.216.648.438,1,.624a19.172,19.172,0,0,0,17.037.846,1.037,1.037,0,0,1,.8,0,18.573,18.573,0,0,0,6.033,2.291,11.879,11.879,0,0,0,2.519.246C115.079,164.647,115.115,164.419,114.7,163.9Z" transform="translate(-62.5 -118.975)" fill="currentColor" opacity="0.11"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div  className="swiper-slide">
-                            <div  className="testimonial__items d-flex align-items-center">
-                                <div  className="testimonial__items--thumbnail">
-                                    <img  className="testimonial__items--thumbnail__img" src="assets/img/other/testimonial-thumb2.png" alt="testimonial-img"/>
-                                </div>
-                                <div  className="testimonial__items--content">
-                                    <h3  className="testimonial__items--title">Laura Johnson</h3>
-                                    <span  className="testimonial__items--subtitle">Products Manager</span>
-                                    <p  className="testimonial__items--desc">Lorem ipsum dolor sit, amet consectetur is adipisicing elit. Recusandae iusto veritatis eveniet, amet sint are suscipit!</p>
-                                    <div  className="ratting testimonial__ratting">
-                                        <ul  className="d-flex testimonial__ratting--inner">
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                            <li  className="testimonial__ratting--list">
-                                                <span  className="testimonial__ratting--icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.54" height="15.555" viewBox="0 0 20.54 19.555">
-                                                        <path  d="M9.947,24.316c.168-.388.446-.388.616,0L13,29.9a1.447,1.447,0,0,0,1.076.783l6.067.589c.423.039.507.3.191.585L15.77,35.9a1.456,1.456,0,0,0-.411,1.267l1.315,5.95c.092.415-.134.577-.5.364L10.92,40.4a1.45,1.45,0,0,0-1.331,0L4.335,43.485c-.368.214-.589.051-.5-.364l1.315-5.95A1.462,1.462,0,0,0,4.74,35.9L.176,31.862c-.316-.281-.232-.546.191-.585l6.069-.589A1.454,1.454,0,0,0,7.513,29.9l2.434-5.589Z" transform="translate(0.015 -24.025)" fill="currentColor"/>
-                                                    </svg>  
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div  className="testimonial__chat--icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="52.472" height="45.687" viewBox="0 0 52.472 45.687">
-                                        <path  data-name="Chat icon" d="M105.2,149.979a16.71,16.71,0,0,0,3.8-15.4,18.87,18.87,0,0,0-8.881-11.694,25.79,25.79,0,0,0-17.343-3.676,23.55,23.55,0,0,0-15.238,7.706,16.673,16.673,0,0,0-4.108,15.7,40.137,40.137,0,0,1,1.547,7.124,15.559,15.559,0,0,1-1.727,8.677c-.228.414-.486.81-.744,1.229.1.036.15.066.192.06a26.1,26.1,0,0,0,11.034-3.862.865.865,0,0,1,.983-.132A26.582,26.582,0,0,0,91,157.853a23.243,23.243,0,0,0,14.194-7.874Zm9.5,13.924a8.286,8.286,0,0,1-.911-1.3,11.272,11.272,0,0,1-.354-9.049,12.317,12.317,0,0,0-.486-9.4c-.4-.846-.935-1.625-1.493-2.591-.108.408-.162.582-.2.762a18.517,18.517,0,0,1-2.968,7.076c-4.234,6.141-10.236,9.427-17.468,10.65-1.283.216-2.591.288-3.916.432a.579.579,0,0,0,.126.168c.33.216.648.438,1,.624a19.172,19.172,0,0,0,17.037.846,1.037,1.037,0,0,1,.8,0,18.573,18.573,0,0,0,6.033,2.291,11.879,11.879,0,0,0,2.519.246C115.079,164.647,115.115,164.419,114.7,163.9Z" transform="translate(-62.5 -118.975)" fill="currentColor" opacity="0.11"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div  className="swiper__nav--btn swiper-button-next"></div>
-                    <div  className="swiper__nav--btn swiper-button-prev"></div>
-                </div>
-            </div>
-        </section>
        
-
-        {/* <!-- Start shipping section --> */}
-        <section  className="shipping__section section--padding">
-            <div  className="container">
-                <div  className="shipping__section--inner d-flex">
-                    <div  className="shipping__items">
-                        <div  className="shipping__items--icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32.955" height="23.967" viewBox="0 0 32.955 23.967">
-                                <path  d="M29.461,9.992H24.967V4H4A3,3,0,0,0,1,7V23.473H4a4.494,4.494,0,0,0,8.988,0h8.988a4.494,4.494,0,1,0,8.988,0h3v-7.49ZM8.49,25.72a2.247,2.247,0,1,1,2.247-2.247A2.244,2.244,0,0,1,8.49,25.72ZM28.712,12.239l2.936,3.745H24.967V12.239ZM26.465,25.72a2.247,2.247,0,1,1,2.247-2.247A2.244,2.244,0,0,1,26.465,25.72Z" transform="translate(-1 -4)" fill="currentColor" opacity="0.73"/>
-                            </svg>
-                        </div>
-                        <div  className="shipping__items--content text-center">
-                            <h2  className="shipping__items--title h3">Free Shipping</h2>
-                            <p  className="shipping__items--desc">On all orders over $75.00</p>
-                        </div>
-                    </div>
-                    <div  className="shipping__items">
-                        <div  className="shipping__items--icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="27.63" height="38.407" viewBox="0 0 27.63 38.407">
-                                <path  d="M17.615,6.106V1L10.808,7.808l6.808,6.808V9.509A10.219,10.219,0,0,1,27.826,19.721a9.991,9.991,0,0,1-1.191,4.765l2.485,2.485a13.591,13.591,0,0,0-11.5-20.865Zm0,23.826A10.219,10.219,0,0,1,7.4,19.721,9.991,9.991,0,0,1,8.6,14.955L6.11,12.471a13.591,13.591,0,0,0,11.5,20.865v5.106l6.808-6.808-6.808-6.808Z" transform="translate(-3.8 -0.517)" fill="currentColor" strokeWidth="0.4" opacity="0.7"/>
-                            </svg>  
-                        </div>
-                        <div  className="shipping__items--content text-center">
-                            <h2  className="shipping__items--title h3">Free Returns</h2>
-                            <p  className="shipping__items--desc">On all orders over $75.00</p>
-                        </div>
-                    </div>
-                    <div  className="shipping__items">
-                        <div  className="shipping__items--icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="27.787" height="22.735" viewBox="0 0 27.787 22.735">
-                            <path  d="M26.261,3H3.526A2.534,2.534,0,0,0,1,5.526V23.209a2.534,2.534,0,0,0,2.526,2.526H26.261a2.534,2.534,0,0,0,2.526-2.526V5.526A2.534,2.534,0,0,0,26.261,3ZM14.894,13.1H3.526V10.578H14.894Zm0-5.052H3.526V5.526H14.894Z" transform="translate(-1 -3)" fill="currentColor" opacity="0.7"/>
-                            </svg>  
-                        </div>
-                        <div  className="shipping__items--content text-center">
-                            <h2  className="shipping__items--title h3">Secure Payment</h2>
-                            <p  className="shipping__items--desc">On all orders over $75.00</p>
-                        </div>
-                    </div>
-                    <div  className="shipping__items">
-                        <div  className="shipping__items--icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="22.143" viewBox="0 0 25 22.143">
-                                <path  d="M81.251,82.1c2.151,0,3.12-.959,3.12-2.149S83.4,77.8,81.251,77.8a6.99,6.99,0,0,0-4.694,1.8,3.4,3.4,0,0,0-1.609-.414,3.306,3.306,0,0,0-1.54.385A7,7,0,0,0,68.746,77.8c-2.157,0-3.12.964-3.12,2.149s.96,2.149,3.12,2.149h5.189V99.943H76.06V82.1Zm0-2.862c.709,0,1.554.126,1.554.713s-.846.721-1.554.721H77.7l-.029-.066A5.35,5.35,0,0,1,81.251,79.236ZM72.206,80.67H68.749c-.709,0-1.566-.128-1.566-.721s.854-.713,1.566-.713a5.33,5.33,0,0,1,3.526,1.321Zm-9.706,3.5v2.87H73.44v-4.3H64.066A1.505,1.505,0,0,0,62.5,84.174Zm1.566,14.333a1.5,1.5,0,0,0,1.563,1.434H73.44V88.472H64.066ZM85.934,82.74H76.628v4.306H87.5V84.174A1.507,1.507,0,0,0,85.934,82.74Zm-9.306,17.2h7.743a1.507,1.507,0,0,0,1.566-1.434V88.472H76.628Z" transform="translate(-62.5 -77.8)"  fill="currentColor" opacity="0.7"/>
-                            </svg>
-                        </div>
-                        <div  className="shipping__items--content text-center">
-                            <h2  className="shipping__items--title h3">Gift Service</h2>
-                            <p  className="shipping__items--desc">On all orders over $75.00</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
         
     </main>
           

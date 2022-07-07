@@ -35,7 +35,7 @@ export default class Contact extends Component {
         <section  className="contact__section section--padding">
             <div  className="container">
                 <div  className="section__heading text-center mb-40">
-                    <span  className="section__heading--subtitle">Cntact With Me</span>
+                    <span  className="section__heading--subtitle">Contact With Me</span>
                     <h2  className="section__heading--maintitle">Get In Touch</h2>
                 </div>
                 <div  className="main__contact--area position__relative">
@@ -88,7 +88,7 @@ export default class Contact extends Component {
                                     </svg>
                                 </div>
                                 <div  className="contact__info--content">
-                                    <p  className="contact__info--content__desc text-white">Change the design through a range <br/> <Link to="tel:+01234-567890">+01234-567890</Link > <Link to="tel:++01234-5688765">+01234-5688765</Link >   </p>
+                                    <p  className="contact__info--content__desc text-white">Change the design through a range <br/> <Link to="tel:+056-567890">+056-567890</Link > <Link to="tel:++056-5688765">+056-5688765</Link >   </p>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ export default class Contact extends Component {
                                     </svg>  
                                 </div>
                                 <div  className="contact__info--content">
-                                    <p  className="contact__info--content__desc text-white"> <Link to="mailto:info@example.com">info@example.com</Link > <br/> <Link to="mailto:info@example.com">info@example.com</Link ></p> 
+                                    <p  className="contact__info--content__desc text-white"> <Link to="Bishnudura@gmail.com">Bishnudura@gmail.com</Link > <br/> <Link to="Bishnudura@gmail.com">Bishnudura@gmail.com</Link ></p> 
                                 </div>
                             </div>
                         </div>
@@ -114,9 +114,9 @@ export default class Contact extends Component {
                                     </svg> 
                                 </div>
                                 <div  className="contact__info--content">
-                                    <p  className="contact__info--content__desc text-white">  123 Stree New York City ,
-                                        United States Of America
-                                        NY 750065.</p> 
+                                    <p  className="contact__info--content__desc text-white">  Nepal ,
+                                        Chitwan
+                                        Bhatrapur-02</p> 
                                 </div>
                             </div>
                         </div>
@@ -168,77 +168,10 @@ export default class Contact extends Component {
         </div>
         
 
-        {/*<!-- Start brand logo section -->*/}
-        <div  className="brand__logo--section section--padding pt-0">
-            <div  className="container">
-                <div  className="row row-cols-1">
-                    <div  className="col">
-                        <div  className="brand__logo--section__inner d-flex justify-content-between align-items-center">
-                            <div  className="brand__logo--items">
-                                <img  className="brand__logo--items__thumbnail--img display-block" src="assets/img/logo/brand-logo1.png" alt="brand img"/>
-                            </div>
-                            <div  className="brand__logo--items">
-                                <img  className="brand__logo--items__thumbnail--img display-block" src="assets/img/logo/brand-logo2.png" alt="brand img"/>
-                            </div>
-                            <div  className="brand__logo--items">
-                                <img  className="brand__logo--items__thumbnail--img display-block" src="assets/img/logo/brand-logo3.png" alt="brand img"/>
-                            </div>
-                            <div  className="brand__logo--items">
-                                <img  className="brand__logo--items__thumbnail--img display-block" src="assets/img/logo/brand-logo4.png" alt="brand img"/>
-                            </div>
-                            <div  className="brand__logo--items">
-                                <img  className="brand__logo--items__thumbnail--img display-block" src="assets/img/logo/brand-logo5.png" alt="brand img"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
       
 
-        {/*<!-- Start shipping section -->*/}
-        <section  className="shipping__section2 shipping__style3">
-            <div  className="container">
-                <div  className="shipping__section2--inner shipping__style3--inner d-flex justify-content-between">
-                    <div  className="shipping__items2 d-flex align-items-center">
-                        <div  className="shipping__items2--icon">
-                            <img  className="display-block" src="assets/img/other/shipping1.png" alt="shipping img"/>
-                        </div>
-                        <div  className="shipping__items2--content">
-                            <h2  className="shipping__items2--content__title h3">Shipping</h2>
-                            <p  className="shipping__items2--content__desc">From handpicked sellers</p>
-                        </div>
-                    </div>
-                    <div  className="shipping__items2 d-flex align-items-center">
-                        <div  className="shipping__items2--icon">
-                            <img  className="display-block" src="assets/img/other/shipping2.png" alt="shipping img"/>
-                        </div>
-                        <div  className="shipping__items2--content">
-                            <h2  className="shipping__items2--content__title h3">Payment</h2>
-                            <p  className="shipping__items2--content__desc">Visa, Paypal, Master</p>
-                        </div>
-                    </div>
-                    <div  className="shipping__items2 d-flex align-items-center">
-                        <div  className="shipping__items2--icon">
-                            <img  className="display-block" src="assets/img/other/shipping3.png" alt="shipping img"/>
-                        </div>
-                        <div  className="shipping__items2--content">
-                            <h2  className="shipping__items2--content__title h3">Return</h2>
-                            <p  className="shipping__items2--content__desc">30 day guarantee</p>
-                        </div>
-                    </div>
-                    <div  className="shipping__items2 d-flex align-items-center">
-                        <div  className="shipping__items2--icon">
-                            <img  className="display-block" src="assets/img/other/shipping4.png" alt="shipping img"/>
-                        </div>
-                        <div  className="shipping__items2--content">
-                            <h2  className="shipping__items2--content__title h3">Support</h2>
-                            <p  className="shipping__items2--content__desc">Support every time</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    
         
 
     </main>
